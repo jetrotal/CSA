@@ -16,11 +16,48 @@ function formatTPCArr(arr) {
     var prefix = arr.match(term)
 
     arr = arr.split(term).filter(n => n);
-    console.log(arr, "me nota")
 
     arr.map(function(el, ind) {
         return result.push(prefix[ind] + "" + el);
     });
+
+    return result;
+}
+
+function buildHierarchy(items) {
+    const stack = [],
+        result = [];
+
+    let level = -1;
+
+    for (let item of items) {
+        if (item.indent > level) {
+            stack.push(item);
+            level = item.indent;
+        } else {
+            while (item.indent <= level) {
+                level--;
+                if (level < 0) {
+                    result.push(stack.pop());
+                } else {
+                    stack[level].children = stack[level].children || [];
+                    stack[level].children.push(stack.pop());
+                }
+            }
+
+            stack[++level] = item;
+        }
+    }
+
+    while (stack.length > 0) {
+        level--;
+        if (level < 0) {
+            result.push(stack.pop());
+        } else {
+            stack[level].children = stack[level].children || [];
+            stack[level].children.push(stack.pop());
+        }
+    }
 
     return result;
 }
@@ -91,11 +128,17 @@ function diffCheck(b = "", a = "") {
 
 function init() {
 
-    cmdList.forEach(element => tpc_commands[element] = formatTPCArr(tpc_commands[element]));
-
+    cmdList.forEach(prepareList)
     populateList();
     populateTable();
 
 }
 
 init();
+
+function prepareList(element) {
+    console.log(element)
+    tpc_commands[element] = formatTPCArr(tpc_commands[element]);
+    if (vanilla[element] instanceof Array)
+        vanilla[element] = buildHierarchy(vanilla[element]);
+}
