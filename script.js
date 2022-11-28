@@ -20,56 +20,6 @@ function formatTPCArr(arr) {
     return result;
 }
 
-/*
-function buildHierarchy(items, mode = "indent") {
-    const stack = [],
-        result = [];
-
-    let level = mode == "indent" ? -1 : 0;
-    let floor = mode == "indent" ? 0 : 1;
-    let ceiling = mode == "indent" ? 1.797693134862315E+308 : 2;
-
-    for (let item of items) {
-        var prop = mode == "indent" ? item.indent : parseInt(item.code.toString().substring(0, 1))
-        if (prop > level) {
-            stack.push(item);
-            level = prop;
-        } else {
-            while (ceiling >= prop && prop <= level) {
-                try {
-                    level--;
-                    if (level < floor) {
-                        result.push(stack.pop());
-                    } else {
-                        console.log(level, stack[level], stack);
-                        stack[level].children = stack[level].children || [];
-                        stack[level].children.push(stack.pop());
-                    }
-                } catch (e) {}
-            }
-
-            stack[++level] = item;
-        }
-    }
-
-    while (stack.length && stack.length > floor) {
-        if (level > ceiling) break;
-        level--;
-        if (level < floor) {
-            result.push(stack.pop());
-        } else {
-
-            console.log(level, stack[level]);
-            stack[level].children = stack[level].children || [];
-            stack[level].children.push(stack.pop());
-
-        }
-    }
-
-    return result;
-}
-//*/
-
 function buildHierarchy(items) {
     const stack = [],
         result = [];
