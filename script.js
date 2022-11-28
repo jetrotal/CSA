@@ -4,10 +4,6 @@ var cmdList = Object.keys(tpc_commands),
     content = document.getElementById("content"),
     title = document.getElementById("title");
 
-
-
-
-
 function formatTPCArr(arr) {
     var result = [];
 
@@ -24,6 +20,56 @@ function formatTPCArr(arr) {
     return result;
 }
 
+/*
+function buildHierarchy(items, mode = "indent") {
+    const stack = [],
+        result = [];
+
+    let level = mode == "indent" ? -1 : 0;
+    let floor = mode == "indent" ? 0 : 1;
+    let ceiling = mode == "indent" ? 1.797693134862315E+308 : 2;
+
+    for (let item of items) {
+        var prop = mode == "indent" ? item.indent : parseInt(item.code.toString().substring(0, 1))
+        if (prop > level) {
+            stack.push(item);
+            level = prop;
+        } else {
+            while (ceiling >= prop && prop <= level) {
+                try {
+                    level--;
+                    if (level < floor) {
+                        result.push(stack.pop());
+                    } else {
+                        console.log(level, stack[level], stack);
+                        stack[level].children = stack[level].children || [];
+                        stack[level].children.push(stack.pop());
+                    }
+                } catch (e) {}
+            }
+
+            stack[++level] = item;
+        }
+    }
+
+    while (stack.length && stack.length > floor) {
+        if (level > ceiling) break;
+        level--;
+        if (level < floor) {
+            result.push(stack.pop());
+        } else {
+
+            console.log(level, stack[level]);
+            stack[level].children = stack[level].children || [];
+            stack[level].children.push(stack.pop());
+
+        }
+    }
+
+    return result;
+}
+//*/
+
 function buildHierarchy(items) {
     const stack = [],
         result = [];
@@ -31,36 +77,47 @@ function buildHierarchy(items) {
     let level = -1;
 
     for (let item of items) {
+        var ogIndent = item.indent;
+        if (parseInt(item.code.toString().substring(0, 1)) == 2) item.indent = +.5;
+
         if (item.indent > level) {
             stack.push(item);
             level = item.indent;
         } else {
             while (item.indent <= level) {
-                level--;
-                if (level < 0) {
+                if (level == 0) {
                     result.push(stack.pop());
+                    level = -1;
                 } else {
-                    stack[level].children = stack[level].children || [];
-                    stack[level].children.push(stack.pop());
+                    const child = stack.pop();
+                    const parent = stack[stack.length - 1];
+                    parent.children = parent.children || [];
+                    parent.children.push(child);
+                    level = parent.indent;
                 }
             }
 
-            stack[++level] = item;
+            level = item.indent;
+            stack.push(item);
         }
+        // item.indent = ogIndent
     }
 
     while (stack.length > 0) {
-        level--;
-        if (level < 0) {
+        if (level == 0) {
             result.push(stack.pop());
         } else {
-            stack[level].children = stack[level].children || [];
-            stack[level].children.push(stack.pop());
+            const child = stack.pop();
+            const parent = stack[stack.length - 1];
+            parent.children = parent.children || [];
+            parent.children.push(child);
+            level = parent.indent;
         }
     }
 
     return result;
 }
+
 
 function populateList() {
     cmdList.forEach(function(item) {
@@ -108,13 +165,13 @@ function diffCheck(b = "", a = "") {
     y = y.split(" ").filter(n => n);
 
     for (var i = j = 0; x[i] && y[j];) {
-        if (-1 == x.indexOf(y[j]) && (y[j] = "<span class='highlight'>" + y[j] + "</span>"), x[i] == y[j]) i++, j++
+        if (-1 == x.indexOf(y[j]) && (y[j] = "<a class='highlight'>" + y[j] + "</a>"), x[i] == y[j]) i++, j++
             else {
-                if (x[i] == y[j + 1]) console.log("Extra word : " + y[j]), y[j] = "<span class='highlight'>" + y[j] + "</span>", i++, j++
+                if (x[i] == y[j + 1]) console.log("Extra word : " + y[j]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                     else {
-                        if (x[i + 1] == y[j]) console.log("Skip word: " + x[i]), y[j] = "<span class='highlight'>" + y[j] + "</span>", i++, j++
+                        if (x[i + 1] == y[j]) console.log("Skip word: " + x[i]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                             else {
-                                if (x[i + 1] == y[j + 1]) console.log("Diff word: " + y[j]), y[j] = "<span class='highlight'>" + y[j] + "</span>", i++, j++
+                                if (x[i + 1] == y[j + 1]) console.log("Diff word: " + y[j]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                                     else break;
 
                             }
@@ -139,6 +196,8 @@ init();
 function prepareList(element) {
     console.log(element)
     tpc_commands[element] = formatTPCArr(tpc_commands[element]);
-    if (vanilla[element] instanceof Array)
-        vanilla[element] = buildHierarchy(vanilla[element]);
+    if (vanilla[element] instanceof Array) {
+        vanilla[element] = buildHierarchy(vanilla[element], "indent");
+        vanilla[element] = buildHierarchy(vanilla[element], "code");
+    }
 }
