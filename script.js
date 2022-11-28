@@ -71,6 +71,8 @@ function diffCheck(b = "", a = "") {
     b.innerHTML = y.join(" ");
 }
 
+
+/* not as good as diffCheck
 function highlight(newElem, oldElem) {
     var oldText = oldElem.innerText,
         text = '';
@@ -82,7 +84,7 @@ function highlight(newElem, oldElem) {
     });
     newElem.innerHTML = text;
 }
-
+*/
 
 
 var allCmd = document.getElementById("allcmd")
