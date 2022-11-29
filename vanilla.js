@@ -7754,5 +7754,483 @@ vanilla = {
         "indent": 0,
         "string": "",
         "parameters": ""
-    }
+    },
+
+    "TPC | Control String Variables": [{
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "0 1 0 0 4 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "2 1 0 0 4 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "1 1 5 0 4 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "3 1 5 0 4 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 1 3 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "0 1 0 0 4 5 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "test",
+            "parameters": "0 1 0 262144 4 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 256 10 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 1 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 2 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 3 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 4 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 5 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 6 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 7 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 8 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 9 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 10 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 11 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 12 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 13 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 14 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 15 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 16 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 17 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 18 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 768 0 1 1"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 262912 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 1 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 2 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 18 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 1024 0 1 1"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 263168 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test TestAgain",
+            "parameters": "0 1 0 1792 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test TestAgain",
+            "parameters": "0 1 0 263936 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "0 1 0 3328 4 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "0 1 0 265472 4 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Testst TestAgain",
+            "parameters": "0 1 0 2048 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Testst TestAgain",
+            "parameters": "0 1 0 264192 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Testst TestAgain",
+            "parameters": "0 1 0 3584 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Testst TestAgain",
+            "parameters": "0 1 0 527872 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Testst TestAgain",
+            "parameters": "0 1 0 265728 4 2 11"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "0 1 0 2304 4 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "0 1 0 264448 4 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "512 1 0 2560 4 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "Test",
+            "parameters": "512 1 0 264704 4 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "New_Document",
+            "parameters": "0 1 0 3072 12 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "New_Document",
+            "parameters": "0 1 0 3072 12 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "New_Document",
+            "parameters": "0 1 0 265216 12 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 2 1 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 262146 1 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 3 1 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 4 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 4 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 262148 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 4 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 9 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 9 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 262153 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 9 1 2 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 10 1 3 0 2"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 10 1 3 3 2"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 262154 1 3 0 2"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 5 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 5 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 262149 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "16 1 0 5 1 2 3"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "newDocument",
+            "parameters": "0 1 0 7 0 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "newDocument",
+            "parameters": "0 1 0 7 0 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "newDocument",
+            "parameters": "0 1 0 7 0 1 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "newDocument",
+            "parameters": "0 1 0 262151 0 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "newDocument",
+            "parameters": "0 1 0 7 0 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 8 2 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 262152 2 0 0"
+        },
+        {
+            "code": 3020,
+            "indent": 0,
+            "string": "",
+            "parameters": "0 1 0 8 2 0 0"
+        }
+    ]
+
+
 }

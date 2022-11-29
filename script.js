@@ -1,13 +1,17 @@
-var cmdList = Object.keys(tpc_commands),
+var hash = decodeURI(window.location.hash.substring(1)),
+    cmdList = Object.keys(tpc_commands),
     allCmd = document.getElementById("allcmd"),
-    currCmd = cmdList[0],
+    currCmd = cmdList.includes(hash) ? hash : cmdList[0], //currCmd = cmdList[0],
     content = document.getElementById("content"),
     title = document.getElementById("title");
+
+
+
 
 function formatTPCArr(arr) {
     var result = [];
 
-    var term = /\n @|\n s\[|\n v\[|\n gs\[|\n gv\[/gi; //if TPC commands snippet has "\n @" or "\n s[" or "\n v[" or "\n gs[" or "\n gv[" 
+    var term = /\n @|\n s\[|\n v\[|\n t\[|\n gs\[|\n gv\[/gi; //if TPC commands snippet has "\n @" or "\n s[" or "\n v[" or "\n t[" or "\n gs[" or "\n gv[" 
 
     var prefix = arr.match(term)
 
@@ -79,6 +83,7 @@ function populateSelectBox() {
 
     allCmd.addEventListener("change", function() {
         currCmd = allCmd.value;
+        window.location.hash = allCmd.value;
         populateTable();
     });
 
@@ -136,10 +141,11 @@ function diffCheck(b = "", a = "") {
 
 function init() {
 
+
     cmdList.forEach(prepareList)
     populateSelectBox();
     populateTable();
-
+    allCmd.value = currCmd;
 }
 
 init();

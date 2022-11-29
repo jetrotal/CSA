@@ -3657,6 +3657,79 @@ tpc_commands = {
 
 
 `,
+    "TPC | Control String Variables": `
+ t[1] .asg "test"
+ t[v[1]] .asg "test"
+ t[1..5] .asg "test"
+ t[v[1]..v[5]] .asg "test"
+ t[1] .cat t[3]
+ t[1] .asg "test" .min 5
+ t[1] .asg "test" .extract
+ t[1] .asg 10
+ t[1] .asg  .skill[1].name
+ t[1] .asg  .item[1].name
+ t[1] .asg  .enemy[1].name
+ t[1] .asg  .troop[1].name
+ t[1] .asg  .terrain[1].name
+ t[1] .asg  .element[1].name
+ t[1] .asg  .state[1].name
+ t[1] .asg  .anim[1].name
+ t[1] .asg  .tileset[1].name
+ t[1] .asg  .s[1].name
+ t[1] .asg  .v[1].name
+ t[1] .asg  .t[1].name
+ t[1] .asg  .cev[1].name
+ t[1] .asg  .class[1].name
+ t[1] .asg  .anim2[1].name
+ t[1] .asg  .map[1].name
+ t[1] .asg  .mev[1].name
+ t[1] .asg  .member[1].name
+ t[1] .asg  .actor[1].name
+ t[1] .asg  .actor[1].name .dynamic
+ t[1] .asg  .actor[1].name .extract
+ t[1] .asg  .skill[1].desc
+ t[1] .asg  .item[1].desc
+ t[1] .asg  .member[1].desc
+ t[1] .asg  .actor[1].desc
+ t[1] .asg  .actor[1].desc .dynamic
+ t[1] .asg  .actor[1].desc .extract
+ t[1] .asg  .ins "Test", 2, " TestAgain "
+ t[1] .asg  .ins "Test", 2, " TestAgain ", .extract
+ t[1] .asg  .remove "Test", 2, 0
+ t[1] .asg  .remove "Test", 2, 0, .extract
+ t[1] .asg  .rep "Test", "st", " TestAgain "
+ t[1] .asg  .rep "Test", "st", " TestAgain ", .extract
+ t[1] .asg .exrep {  "Test"  "st"  " TestAgain "  }
+ t[1] .asg .exrep {  "Test"  "st"  " TestAgain "  .first  }
+ t[1] .asg .exrep {  "Test"  "st"  " TestAgain "  .extract   }
+ t[1] .asg  .subs "Test", 2, 3
+ t[1] .asg  .subs "Test", 2, 3, .extract
+ t[1] .asg  .join "Test", v[2], 3
+ t[1] .asg  .join "Test", v[2], 3, .extract
+ t[1] .asg  .file "New_Document", .sjis
+ t[1] .asg  .file "New_Document", .utf8
+ t[1] .asg  .file "New_Document", .sjis, .extract
+ t[1] .toNum v[1]
+ t[1] .toNum v[1], .extract
+ t[1] .getLen v[1]
+ t[1] .inStr t[1], 2,  .beg 3
+ t[1] .inStr t[1], 2,  .beg 0, .extract
+ t[1] .inStr t[1], 2,  .beg 0
+ t[1].exInStr {  t[1]  2  .beg 3  }
+ t[1].exInStr {  t[1]  2  .beg 0  .extract  }
+ t[1].exInStr {  t[1]  2  .beg 0  }
+ t[1].exMatch {  t[1]  t[2]  v[3]  .beg 0  }
+ t[1].exMatch {  t[1]  t[2]  v[3]  .beg 3  }
+ t[1].exMatch {  t[1]  t[2]  v[3]  .beg 0  .extract  }
+ t[1] .split t[1], t[2], v[3], .extract
+ t[1] .split t[1], t[2], v[3]
+ t[1] .toFile "newDocument", .utf8
+ t[1] .toFile "newDocument", .sjis, .extract
+ t[1] .toFile "newDocument", .sjis
+ t[1] .popLine t[2], .extract
+ t[1] .popLine t[2]
 
+ 
+`
 
 }
