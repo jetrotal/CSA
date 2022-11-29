@@ -5,6 +5,7 @@
     body {
         width: 70vw;
         margin: auto;
+        overflow-y: scroll;
     }
     
     .highlight {
@@ -31,10 +32,22 @@
     #allcmd {
         height: 30px;
         position: fixed;
+        left: 0;
+        margin: 10px;
+    }
+    
+    td[id^='van_'],
+    td[id*=' van_'] {
+        width: 50vw;
+    }
+    
+    td[id^='tpc_'],
+    td[id*=' tpc_'] {
+        width: max-content;
     }
 </style>
 
-<div id="title"> <select id="allcmd"></select></div>
+<div id="title"> <select id="allcmd" autofocus></select></div>
 <br><br><br>
 <table>
 
