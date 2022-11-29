@@ -70,7 +70,7 @@ function buildHierarchy(items) {
 }
 
 
-function populateList() {
+function populateSelectBox() {
     cmdList.forEach(function(item) {
         const optionObj = document.createElement("option");
         optionObj.textContent = item;
@@ -137,7 +137,7 @@ function diffCheck(b = "", a = "") {
 function init() {
 
     cmdList.forEach(prepareList)
-    populateList();
+    populateSelectBox();
     populateTable();
 
 }
