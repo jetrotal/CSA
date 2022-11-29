@@ -20,6 +20,7 @@ function formatTPCArr(arr) {
     return result;
 }
 
+
 function buildHierarchy(items) {
     const stack = [],
         result = [];
@@ -90,9 +91,9 @@ function populateTable() {
 
 function generateHTML(el, ind) {
     try {
-        var vanHTML = JSON.stringify(vanilla[currCmd][ind], null, "\t").split("\n").join("<br>");
+        var vanHTML = JSON.stringify(vanilla[currCmd][ind], null, "\u2800 ").split("\n").join("<br>");
     } catch (e) {
-        vanHTML = JSON.stringify(vanilla[currCmd], null, "\t").split("\n").join("<br>");
+        vanHTML = JSON.stringify(vanilla[currCmd], null, "\u2800 ").split("\n").join("<br>");
     }
 
     content.innerHTML += `
@@ -108,8 +109,8 @@ function generateHTML(el, ind) {
 }
 
 function diffCheck(b = "", a = "") {
-    x = a.innerText.split("\n").join(" <br> ").split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
-    y = b.innerText.split("\n").join(" <br> ").split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
+    x = a.innerText.split("\n").join(" <br> ") //.split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
+    y = b.innerText.split("\n").join(" <br> ") //.split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
 
     x = x.split(" ").filter(n => n);
     y = y.split(" ").filter(n => n);
