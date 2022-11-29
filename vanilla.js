@@ -7808,12 +7808,6 @@ vanilla = {
             "code": 3020,
             "indent": 0,
             "string": "",
-            "parameters": "0 1 0 768 0 1 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
             "parameters": "0 1 0 768 1 1 0"
         },
         {
@@ -7935,12 +7929,6 @@ vanilla = {
             "indent": 0,
             "string": "",
             "parameters": "0 1 0 262912 0 1 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
-            "parameters": "0 1 0 1024 0 1 0"
         },
         {
             "code": 3020,
@@ -8096,12 +8084,6 @@ vanilla = {
             "code": 3020,
             "indent": 0,
             "string": "",
-            "parameters": "16 1 0 4 1 2 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
             "parameters": "16 1 0 4 1 2 3"
         },
         {
@@ -8115,12 +8097,6 @@ vanilla = {
             "indent": 0,
             "string": "",
             "parameters": "16 1 0 4 1 2 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
-            "parameters": "16 1 0 9 1 2 0"
         },
         {
             "code": 3020,
@@ -8162,18 +8138,6 @@ vanilla = {
             "code": 3020,
             "indent": 0,
             "string": "",
-            "parameters": "16 1 0 5 1 2 3"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
-            "parameters": "16 1 0 5 1 2 3"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
             "parameters": "16 1 0 262149 1 2 3"
         },
         {
@@ -8181,18 +8145,6 @@ vanilla = {
             "indent": 0,
             "string": "",
             "parameters": "16 1 0 5 1 2 3"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "newDocument",
-            "parameters": "0 1 0 7 0 0 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "newDocument",
-            "parameters": "0 1 0 7 0 0 0"
         },
         {
             "code": 3020,
@@ -8211,12 +8163,6 @@ vanilla = {
             "indent": 0,
             "string": "newDocument",
             "parameters": "0 1 0 7 0 0 0"
-        },
-        {
-            "code": 3020,
-            "indent": 0,
-            "string": "",
-            "parameters": "0 1 0 8 2 0 0"
         },
         {
             "code": 3020,
