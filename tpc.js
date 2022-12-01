@@ -11,43 +11,55 @@ tpc_commands = {
 
     "Display Text Options": `
  @msg.opt {
- .opaq
- .top
- .size 0, 0
- .font "", 0
+     .opaq
+     .top
+     .size 0, 0
+     .font "", 0
  }
  @msg.opt {
- .trans
- .top
- .size 0, 0
- .font "", 0
+     .trans
+     .top
+     .size 0, 0
+     .font "", 0
  }
  @msg.opt {
- .opaq
- .middle
- .size 0, 0
- .font "", 0
+     .opaq
+     .middle
+     .size 0, 0
+     .font "", 0
  }
  @msg.opt {
- .opaq
- .bottom
- .size 0, 0
- .font "", 0
+     .opaq
+     .bottom
+     .size 0, 0
+     .font "", 0
  }
  @msg.opt {
- .opaq
- .top
- .varyPos
- .size 0, 0
- .font "", 0
+     .opaq
+     .top
+     .varyPos
+     .size 0, 0
+     .font "", 0
  }
  @msg.opt {
- .opaq
- .top
- .allowEventMove
- .size 0, 0
- .font "", 0
+     .opaq
+     .top
+     .allowEventMove
+     .size 0, 0
+     .font "", 0
  }
+ @msg.opt {
+     .opaq
+     .top
+     .size 12, 13
+     .font "", 0
+ }
+ @msg.opt {
+     .opaq
+     .top
+     .size 0, 0
+     .font "MatisseITC", 12
+ 
  
 `,
 
@@ -665,39 +677,44 @@ tpc_commands = {
 
     "Shop Processing": `
  @shop {
- .normal
- .msg 0
+     .normal
+     .msg 0
  }
  @shop {
- .buyOnly
- .msg 0
+     .buyOnly
+     .msg 0
  }
  @shop {
- .sellOnly
- .msg 0
+     .sellOnly
+     .msg 0
  }
  @shop {
- .normal
- .msg 0
- .transaction bl {
- 
- }
- .noTransaction bl {
- 
- }
- }
- @shop {
- .normal
- .msg 1
+     .normal
+     .msg 0
+      .transaction bl {
+         
+     }
+      .noTransaction bl {
+         
+     }
  }
  @shop {
- .normal
- .msg 2
+     .normal
+     .msg 1
  }
  @shop {
- .normal
- .msg 0
- 1
+     .normal
+     .msg 2
+ }
+ @shop {
+     .normal
+     .msg 0
+     1
+ }
+ @shop {
+     .normal
+     .msg 1
+     .goods v[0], 0
  }
  
 `,
@@ -901,7 +918,8 @@ tpc_commands = {
  @scr.scroll .shift 1 .up .speed 5
  @scr.scroll .shift 1 .up .speed 6
  @scr.scroll .restore .speed 1 .wait
- 
+ @scr.scroll .pxShift 1, 2 .speed 0
+ @scr.scroll .set 1, 2 .speed 0
 `,
 
 
@@ -1898,7 +1916,8 @@ tpc_commands = {
     "Wait": `
  @wait 10
  @wait .input
- 
+ @wait 10 .frame
+
 `,
 
 
@@ -2478,7 +2497,7 @@ tpc_commands = {
 `,
 
 
-    "Get Save Info": `
+    "MNC | Get Save Info": `
  @save[1].getInfo .datetime v[1], v[1] .level v[1] .hp v[1] .face 0, 0, 0, 0
  @save[v[1]].getInfo .datetime v[1], v[1] .level v[1] .hp v[1] .face 0, 0, 0, 0
  @save[1].getInfo .datetime v[1], v[1] .level v[1] .hp v[1] .face v[1], v[1], v[1], v[1]
@@ -2486,7 +2505,7 @@ tpc_commands = {
 `,
 
 
-    "Save": `
+    "MNC | Save": `
  @save[1].save
  @save[v[1]].save
  @save[1].save .res v[1]
@@ -2494,7 +2513,7 @@ tpc_commands = {
 `,
 
 
-    "Load": `
+    "MNC | Load": `
  @save[1].load
  @save[v[1]].load
  @save[1].load .disableFileCheck
@@ -2502,26 +2521,26 @@ tpc_commands = {
 `,
 
 
-    "End Load Processing (Do Nothing)": `
+    "MNC | End Load Processing (Do Nothing)": `
  @raw 3004, ""
 
 `,
 
 
-    "Get Mouse Position": `
+    "MNC | Get Mouse Position": `
  @mouse.getPos v[1], v[2]
 
 `,
 
 
-    "Set Mouse Position": `
+    "MNC | Set Mouse Position": `
  @mouse.setPos 0, 0
  @mouse.setPos v[1], v[1]
  
 `,
 
 
-    "Show String Picture": `
+    "MNC | Show String Picture": `
  @pic[1].strpic {
  ""
  .pos 160, 120 .center
@@ -3291,19 +3310,23 @@ tpc_commands = {
 `,
 
 
-    "Get Picture Info": `
- @pic[1].getInfo .cewh .baseRect v[1], v[1], v[1], v[1]
- @pic[1].getInfo .cewh .currentRect v[1], v[1], v[1], v[1]
- @pic[1].getInfo .cewh .goalRect v[1], v[1], v[1], v[1]
- @pic[1].getInfo .xywh .baseRect v[1], v[1], v[1], v[1]
- @pic[1].getInfo .ltrb .baseRect v[1], v[1], v[1], v[1]
- @pic[v[1]].getInfo .cewh .baseRect v[1], v[1], v[1], v[1]
- @pic[v[v[1]]].getInfo .cewh .baseRect v[1], v[1], v[1], v[1]
+    "MNC | Get Picture Info": `
+ @pic[1].getInfo .cewh .baseRect v[1], v[2], v[3], v[4]
+ @pic[1].getInfo .cewh .currentRect v[1], v[2], v[3], v[4]
+ @pic[1].getInfo .cewh .goalRect v[1], v[2], v[3], v[4]
+ @pic[1].getInfo .xywh .baseRect v[1], v[2], v[3], v[4]
+ @pic[1].getInfo .ltrb .baseRect v[1], v[2], v[3], v[4]
+ @pic[v[1]].getInfo .cewh .baseRect v[1], v[2], v[3], v[4]
+ @pic[v[v[1]]].getInfo .cewh .baseRect v[1], v[2], v[3], v[4]
+ @pic[1].getInfo .pixel v[1], v[2], v[3], v[4] .dst 0
+ @pic[1].getInfo .pixel v[1], v[2], v[3], v[4] .dst 0 .ignoreA
+ @pic[1].getInfo .pixel v[1], v[2], v[3], v[4] .dst 0 .dynamic
+
  
 `,
 
 
-    "Control Battle": `
+    "MNC | Control Battle": `
  @btl.hook .atb .none
  @btl.hook .damagePop .none
  @btl.hook .targeting .none
@@ -3316,7 +3339,7 @@ tpc_commands = {
 `,
 
 
-    "Control ATB Gauge": `
+    "MNC | Control ATB Gauge": `
  @btl.atb .actor[1] .set 0
  @btl.atb .member[1] .set 0
  @btl.atb .party .set 0
@@ -3333,7 +3356,7 @@ tpc_commands = {
 `,
 
 
-    "Battle Command EX": `
+    "MNC | Battle Command EX": `
  @btl.cmdex {
  .change 0
  .fight 0
@@ -3394,7 +3417,7 @@ tpc_commands = {
 `,
 
 
-    "Get Battle Info": `
+    "MNC | Get Battle Info": `
  @btl.getInfo .actor[1] .buff .dst v[1]
  @btl.getInfo .member[1] .buff .dst v[1]
  @btl.getInfo .party .list .dst v[1]
@@ -3409,7 +3432,7 @@ tpc_commands = {
 `,
 
 
-    "Control Variable Array": `
+    "MNC | Control Variable Array": `
  v[1].copy v[1], 1
  v[1].swap v[1], 1
  v[1].sort 1
@@ -3434,7 +3457,7 @@ tpc_commands = {
 `,
 
 
-    "Key Input Processing EX": `
+    "MNC | Key Input Processing EX": `
  @key.inputEx .keybdWithBind .dst v[1]
  @key.inputEx .keybd .dst v[1]
  @key.inputEx .keyCode 0 .dst v[1]
@@ -3447,7 +3470,7 @@ tpc_commands = {
 `,
 
 
-    "Rewrite Map": `
+    "MNC | Rewrite Map": `
  @map.rewrite .lower .single 0 .xywh 0, 0, 0, 0
  @map.rewrite .upper .single 0 .xywh 0, 0, 0, 0
  @map.rewrite .lower .single v[0] .xywh 0, 0, 0, 0
@@ -3467,7 +3490,7 @@ tpc_commands = {
 `,
 
 
-    "Control Shared Save": `
+    "MNC | Control Shared Save": `
  @gsave.open
  @gsave.close
  @gsave.save
@@ -3486,11 +3509,16 @@ tpc_commands = {
  gs[1].copyFrom s[1], v[v[1]]
  gv[1].copyFrom v[1], 1
  gv[1].copyFrom v[v[1]], 1
+ gt[1].copyTo t[1], 1
+ gt[1].copyTo t[v[1]], 1
+ gt[1].copyFrom t[1], 1
+ gt[1].copyFrom t[v[1]], 1
+    
  
 `,
 
 
-    "Set Picture ID": `
+    "MNC | Set Picture ID": `
  @pic[1].setId .move 1, 0
  @pic[1].setId .swap 1, 0
  @pic[1].setId .slide 1, 0
@@ -3506,7 +3534,7 @@ tpc_commands = {
 `,
 
 
-    "Set Game Option": `
+    "MNC | Set Game Option": `
  @sys.gameOpt .pauseWhenInactive
  @sys.gameOpt .runWhenInactive
  @sys.gameOpt .fatal 60, 0, 0
@@ -3522,11 +3550,25 @@ tpc_commands = {
  @sys.gameOpt .oneFifth
  @sys.gameOpt .oneThird
  @sys.gameOpt .oneHalf
+ @sys.gameOpt .mouse.disableMsgProcession 0
+ @sys.gameOpt .mouse.disableMsgProcession 1
+ @sys.gameOpt .mouse.disableMsgProcession 3
+ @sys.gameOpt .btlOrigin .center
+ @sys.gameOpt .btlOrigin .topLeft
+ @sys.gameOpt .btlOrigin .bottomLeft
+ @sys.gameOpt .btlOrigin .topRight
+ @sys.gameOpt .btlOrigin .bottomRight
+ @sys.gameOpt .btlOrigin .top
+ @sys.gameOpt .btlOrigin .bottom
+ @sys.gameOpt .btlOrigin .left
+ @sys.gameOpt .btlOrigin .right
+ @sys.gameOpt .winFaceSize 1, 2
+    
  
 `,
 
 
-    "Call Command": `
+    "MNC | Call Command": `
  @cmd 0, "", .args v[0], 0
  @cmd v[0], "", .args v[0], 0
  @cmd v[v[0]], "", .args v[0], 0
@@ -3730,6 +3772,180 @@ tpc_commands = {
  t[1] .popLine t[2]
 
  
+`,
+    "TPC | Edit Picture": `
+ @pic[1].setPixel .xywh 1, 2, 3, 4 .src v[1]
+ @pic[1].setPixel .xywh 1, 2, 3, 4 .src v[1] .opaq
+ @pic[1].setPixel .xywh 1, 2, 3, 4 .src v[1] .skipTransparent
+
+`,
+    "TPC | Edit Picture (Tile)": `
+ @pic[1].drawTile {
+     .xywh 1, 2, 3, 4
+     .single 5
+     .lower
+     .tilesetId 6
+     .pattern 7
+ }
+ @pic[1].drawTile {
+     .xywh 1, 2, 3, 4
+     .range v[5]
+     .lower
+     .tilesetId 6
+     .pattern 7
+ }
+ @pic[1].drawTile {
+     .xywh 1, 2, 3, 4
+     .single 5
+     .lower
+     .tilesetId 6
+     .pattern 7
+     .disableAutoTile
+ }
+ @pic[1].drawTile {
+     .xywh 1, 2, 3, 4
+     .single 5
+     .lower
+     .tilesetId 6
+     .pattern 7
+     .wipe
+ }
+
+`,
+    "TPC | Output Image": `
+ @img.save .screen .dst "newImage"
+ @img.save .pic 1 .static .dst "newImage"
+ @img.save .pic 1.dynamic .dst "newImage"
+ @img.save .screen .dst "newImage"
+ @img.save .screen .opaq .dst "newImage"
+    
+`,
+    "TPC | Get Game Info": `
+ @sys.getInfo .mapSize  .dst v[1]
+ @sys.getInfo .tiles 2, 3, 4, 5 .lower .dst v[1]
+ @sys.getInfo .tiles 2, 3, 4, 5 .upper .dst v[1]
+ @sys.getInfo .winSize  .dst v[1]
+ @sys.getInfo .pixel 2, 3, 4, 5 .dst v[1]
+ @sys.getInfo .pixel 2, 3, 4, 5 .dst v[1] .ignoreA
+ @sys.getInfo .interpreter .current 1 .dst v[1]
+ @sys.getInfo .tilesetId  .dst v[1]
+ @sys.getInfo .face .actor[3] .static .dst t[2], v[1]
+ @sys.getInfo .face .win .static .dst t[2], v[1]
+ @sys.getInfo .face .actor[3] .dynamic .dst t[2], v[1]
+ @sys.getInfo .body .actor[3] .static .dst t[2], v[1]
+ @sys.getInfo .body .ev[3] .static .dst t[2], v[1]
+ @sys.getInfo .body .actor[3] .dynamic .dst t[2], v[1]
+ @sys.getInfo .mapSize  .dst v[1]
+ @sys.getInfo .mapSize  .dst v[1]
+ @sys.getInfo .camera .dst v[1]
+ @sys.getInfo .shake .dst v[1]
+ @sys.getInfo .bgm  .dst t[2], v[1]
+    
+`,
+    "TPC | Add Move Route": `
+ @ev.addAction .moveUp 1
+ @ev.addAction .moveRight 1
+ @ev.addAction .moveDown 1
+ @ev.addAction .moveLeft 1
+ @ev.addAction .moveUpperRight 1
+ @ev.addAction .moveLowerRight 1
+ @ev.addAction .moveUpperLeft 1
+ @ev.addAction .moveLowerLeft 1
+ @ev.addAction .moveRandom 1
+ @ev.addAction .moveRandom 1
+ @ev.addAction .moveToward 1
+ @ev.addAction .moveAway 1
+ @ev.addAction .moveForward 1
+ @ev.addAction .moveRight 2
+ @ev.addAction .faceUp 
+ @ev.addAction .faceRight 
+ @ev.addAction .faceDown 
+ @ev.addAction .faceLeft 
+ @ev.addAction .turnRight 
+ @ev.addAction .turnLeft 
+ @ev.addAction .turnBack 
+ @ev.addAction .turnSide 
+ @ev.addAction .turnRandom 
+ @ev.addAction .turnToward 
+ @ev.addAction .turnAway 
+ @ev.addAction .faceRight 
+ @ev.addAction .pause
+ @ev.addAction .beginJump
+ @ev.addAction .endJump
+ @ev.addAction .jump 1, 2
+ @ev.addAction .fixDir
+ @ev.addAction .unfixDir
+ @ev.addAction .setBody "charsetFile", 2
+ @ev.addAction .se "HitSFX", 1, 2, 3
+ @ev.addAction .beginThrough
+ @ev.addAction .endThrough
+ @ev.addAction .pauseAnim
+ @ev.addAction .resumeAnim
+ @ev.addAction .speed 1
+ @ev.addAction .freq 1
+ @ev.addAction .switch 2, 1
+ @ev.addAction .trans 1
+    
+`,
+    "TPC | Control System Functions": `
+ @sys.limitation {
+     .saveMenu
+ }
+ @sys.limitation {
+     .partyMenu
+ }
+ @sys.limitation {
+     .toggleScreen
+ }
+ @sys.limitation {
+     .optionMenu
+ }
+ @sys.limitation {
+     .debugMenu
+ }
+ @sys.limitation {
+     .f12
+ }
+`,
+    "TPC | Call System Functions": `
+ @sys.call .saveMenu
+ @sys.call .loadMenu
+ @sys.call .partyMenu
+ @sys.call .optionMenu
+ @sys.call .debugMenu
+ @sys.call .toggleScreen
+ @sys.call .f12
+ @sys.call .saveMenu
+`,
+    "TPC | foreach": `
+ @foreach v[1] .cnt 0 {
+ 
+ }
+ 
+ @continue
+ @continue .level 3
+ @break
+ @break .level 3
+ 
+    
+`,
+    "TPC | If stringVar": `
+ @if t[5] .eq "good" {
+     
+ }
+ @if t[5] .neq "good" {
+     
+ }
+ @if t[5] .contains "good" {
+     
+ }
+ @if t[5] .notContains "good" {
+     
+ }
+ @if t[5] .eq "good" .ignoreCase() {
+     
+ }
+
 `
 
 }

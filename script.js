@@ -11,7 +11,7 @@ var hash = decodeURI(window.location.hash.substring(1)),
 function formatTPCArr(arr) {
     var result = [];
 
-    var term = /\n @|\n s\[|\n v\[|\n t\[|\n gs\[|\n gv\[/gi; //if TPC commands snippet has "\n @" or "\n s[" or "\n v[" or "\n t[" or "\n gs[" or "\n gv[" 
+    var term = /\n @|\n s\[|\n v\[|\n t\[|\n gs\[|\n gv\[|\n gt\[/gi; //if TPC commands snippet has "\n @" or "\n s[" or "\n v[" or "\n t[" or "\n gs[" or "\n gv[" or "\n gt[" 
 
     var prefix = arr.match(term)
 
