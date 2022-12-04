@@ -1,11 +1,13 @@
 var hash = decodeURI(window.location.hash.substring(1)),
-    cmdList = Object.keys(tpc_commands),
+    cmdList, currCmd,
     allCmd = document.getElementById("allcmd"),
-    currCmd = cmdList.includes(hash) ? hash : cmdList[0], //currCmd = cmdList[0],
     content = document.getElementById("content"),
     title = document.getElementById("title");
 
 var DB = {};
+tpc_commands = {};
+vanilla = {};
+
 
 fetch('RPG_RT.edb')
     .then(response => response.text())
@@ -21,7 +23,36 @@ function CollectEvents(text) {
 
 
 function genEventsList(a, b, c) {
+
+    a.event_commands.EventCommand = buildHierarchy(a.event_commands.EventCommand, "indent");
+    a.event_commands.EventCommand = buildHierarchy(a.event_commands.EventCommand, "code");
+
+    var commentCMD = a.event_commands.EventCommand.length - 1;
+
+    if (a.event_commands.EventCommand[commentCMD].string == "//TPC_snippet") {
+        console.log(tpc_commands["TPC | If stringVar"]);
+        // console.log(a.name, JSON.stringify(a.event_commands.EventCommand[commentCMD].children));
+        tpc_commands[a.name] = joinObj(a.event_commands.EventCommand[commentCMD].children, "string");
+
+        //a.event_commands.EventCommand = a.event_commands.EventCommand.slice(0, -1)
+    }
     vanilla[a.name] = a.event_commands.EventCommand;
+}
+
+//joinObj(vanilla.Text[vanilla.Text.length - 1].children, "string")
+
+function joinObj(a, attr) {
+    var out = [];
+    a[0][attr] = "\n " + a[0][attr]
+
+    for (var i = 0; i < a.length; i++) {
+
+        if (!a[i][attr]) a[i][attr] = "";
+        out.push(a[i][attr]);
+        // console.log(a[i][attr]);
+    }
+
+    return out.join("\n ");
 }
 
 function formatTPCArr(arr) {
@@ -139,36 +170,37 @@ function diffCheck(b = "", a = "") {
     for (var i = j = 0; x[i] && y[j];) {
         if (-1 == x.indexOf(y[j]) && (y[j] = "<a class='highlight'>" + y[j] + "</a>"), x[i] == y[j]) i++, j++
             else {
-                if (x[i] == y[j + 1]) console.log("Extra word : " + y[j]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
+                if (x[i] == y[j + 1]) /**console.log("Extra word : " + y[j]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                     else {
-                        if (x[i + 1] == y[j]) console.log("Skip word: " + x[i]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
+                        if (x[i + 1] == y[j]) /**console.log("Skip word: " + x[i]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                             else {
-                                if (x[i + 1] == y[j + 1]) console.log("Diff word: " + y[j]), y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
+                                if (x[i + 1] == y[j + 1]) /**console.log("Diff word: " + y[j]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
                                     else break;
 
                             }
                     }
             }
     }
-    console.log(y);
+    // console.log(y);
     b.innerHTML = y.join(" ");
 }
 
 
 function init() {
+    cmdList = Object.keys(tpc_commands);
+    currCmd = cmdList.includes(hash) ? hash : cmdList[0],
 
-
-    cmdList.forEach(prepareList)
+        cmdList.forEach(prepareList)
     populateSelectBox();
     populateTable();
     allCmd.value = currCmd;
 }
 
 function prepareList(element) {
-    console.log(element)
+    // console.log(element)
     tpc_commands[element] = formatTPCArr(tpc_commands[element]);
-    if (vanilla[element] instanceof Array) {
-        vanilla[element] = buildHierarchy(vanilla[element], "indent");
-        vanilla[element] = buildHierarchy(vanilla[element], "code");
-    }
+    // if (vanilla[element] instanceof Array) {
+    //     vanilla[element] = buildHierarchy(vanilla[element], "indent");
+    //     vanilla[element] = buildHierarchy(vanilla[element], "code");
+    // }
 }
