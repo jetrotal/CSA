@@ -5,8 +5,24 @@ var hash = decodeURI(window.location.hash.substring(1)),
     content = document.getElementById("content"),
     title = document.getElementById("title");
 
+var DB = {};
+
+fetch('RPG_RT.edb')
+    .then(response => response.text())
+    .then(text => CollectEvents(text));
+
+function CollectEvents(text) {
+    DB = xmlToJson.parse(text);
+    DB.LDB.Database.commonevents.CommonEvent.forEach(genEventsList);
+    init();
+
+}
 
 
+
+function genEventsList(a, b, c) {
+    vanilla[a.name] = a.event_commands.EventCommand;
+}
 
 function formatTPCArr(arr) {
     var result = [];
@@ -147,8 +163,6 @@ function init() {
     populateTable();
     allCmd.value = currCmd;
 }
-
-init();
 
 function prepareList(element) {
     console.log(element)

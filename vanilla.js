@@ -1,3 +1,5 @@
+vanilla = {};
+/*
 vanilla = {
 
     "Text": [{
@@ -8999,3 +9001,5 @@ vanilla = {
 
 
 }
+
+//*/
