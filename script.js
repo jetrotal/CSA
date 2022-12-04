@@ -30,7 +30,7 @@ function genEventsList(a, b, c) {
     var commentCMD = a.event_commands.EventCommand.length - 1;
 
     if (a.event_commands.EventCommand[commentCMD].string == "//TPC_snippet") {
-        console.log(tpc_commands["TPC | If stringVar"]);
+        // console.log(tpc_commands["TPC | If stringVar"]);
         // console.log(a.name, JSON.stringify(a.event_commands.EventCommand[commentCMD].children));
         tpc_commands[a.name] = joinObj(a.event_commands.EventCommand[commentCMD].children, "string");
 
@@ -43,16 +43,17 @@ function genEventsList(a, b, c) {
 
 function joinObj(a, attr) {
     var out = [];
-    a[0][attr] = "\n " + a[0][attr]
+    //a[0][attr] = "\n " + a[0][attr]
 
     for (var i = 0; i < a.length; i++) {
 
-        if (!a[i][attr]) a[i][attr] = "";
-        out.push(a[i][attr]);
+        if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
+        if (a[i][attr] == 0 || a[i][attr] == "{}") a[i][attr] = "";
+        out.push("\n " + ((a[i][attr])));
         // console.log(a[i][attr]);
     }
 
-    return out.join("\n ");
+    return out.join("");
 }
 
 function formatTPCArr(arr) {
@@ -65,6 +66,7 @@ function formatTPCArr(arr) {
     arr = arr.split(term).filter(n => n);
 
     arr.map(function(el, ind) {
+        console.log(el)
         return result.push(prefix[ind] + "" + el);
     });
 
