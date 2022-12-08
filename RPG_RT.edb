@@ -1675,7 +1675,7 @@
       <accessory_id>0</accessory_id>
      </TestBattler>
     </battletest_data>
-    <save_count>2873</save_count>
+    <save_count>2874</save_count>
     <battletest_terrain>0</battletest_terrain>
     <battletest_formation>0</battletest_formation>
     <battletest_condition>1</battletest_condition>
@@ -1869,6 +1869,18 @@
       <indent>0</indent>
       <string>MatisseITC</string>
       <parameters>0 0 0 0 0 0 0 0 12</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10120</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 0 0 0 256 0 0 98 12</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10120</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 0 0 0 512 0 0 99 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -2174,6 +2186,84 @@
       <code>22410</code>
       <indent>0</indent>
       <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.opt {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .opaq</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .top</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .size 0, 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .font t[98], 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.opt {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .opaq</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .top</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .size 0, 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .font t[v[99]], 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string></string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
