@@ -1675,7 +1675,7 @@
       <accessory_id>0</accessory_id>
      </TestBattler>
     </battletest_data>
-    <save_count>2874</save_count>
+    <save_count>2876</save_count>
     <battletest_terrain>0</battletest_terrain>
     <battletest_formation>0</battletest_formation>
     <battletest_condition>1</battletest_condition>
@@ -16473,6 +16473,18 @@
       <indent>0</indent>
       <string>Ship 1</string>
       <parameters>10 20 30 40 66064</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11510</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 100 100 50 1 333</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11510</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 100 100 50 2 444</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
