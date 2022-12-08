@@ -14,6 +14,8 @@ fetch('RPG_RT.edb')
     .then(text => CollectEvents(text));
 
 function CollectEvents(text) {
+    console.log("jaj", text)
+    text = text.replace(/  /gi, "\u2800 ");
     DB = xmlToJson.parse(text);
     DB.LDB.Database.commonevents.CommonEvent.forEach(genEventsList);
     init();
@@ -32,6 +34,7 @@ function genEventsList(a, b, c) {
     if (a.event_commands.EventCommand[commentCMD].string == "//TPC_snippet") {
         // console.log(tpc_commands["TPC | If stringVar"]);
         // console.log(a.name, JSON.stringify(a.event_commands.EventCommand[commentCMD].children));
+
         tpc_commands[a.name] = joinObj(a.event_commands.EventCommand[commentCMD].children, "string");
 
         //a.event_commands.EventCommand = a.event_commands.EventCommand.slice(0, -1)
@@ -46,9 +49,12 @@ function joinObj(a, attr) {
     //a[0][attr] = "\n " + a[0][attr]
 
     for (var i = 0; i < a.length; i++) {
-
-        if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
+        
+       
+        //if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
         if (a[i][attr] == 0 || a[i][attr] == "{}") a[i][attr] = "";
+       
+
         out.push("\n " + ((a[i][attr])));
         // console.log(a[i][attr]);
     }
@@ -66,13 +72,14 @@ function formatTPCArr(arr) {
     arr = arr.split(term).filter(n => n);
 
     arr.map(function(el, ind) {
-        console.log(el)
+        //console.log(el)
+   
         return result.push(prefix[ind] + "" + el);
+        
     });
 
     return result;
 }
-
 
 function buildHierarchy(items) {
     const stack = [],
@@ -152,8 +159,8 @@ function generateHTML(el, ind) {
 
     content.innerHTML += `
     <tr>
-    <td id="tpc_${ind}" >${el.split("\n").join("<br>")}</td>
-    <td id="van_${ind}">${vanHTML}</td>
+    <td id="tpc_${ind}" >${el.split("\n").join("<br>").replace(/\u2800/gi,"&nbsp; ")}</td>
+    <td id="van_${ind}">${vanHTML.replace(/\u2800/gi,"&nbsp; ")}</td>
     </tr>
     `;
 
