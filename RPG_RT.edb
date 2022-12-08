@@ -1675,7 +1675,7 @@
       <accessory_id>0</accessory_id>
      </TestBattler>
     </battletest_data>
-    <save_count>2872</save_count>
+    <save_count>2873</save_count>
     <battletest_terrain>0</battletest_terrain>
     <battletest_formation>0</battletest_formation>
     <battletest_condition>1</battletest_condition>
@@ -16373,6 +16373,18 @@
       <parameters>10 20 30 40 139808</parameters>
      </EventCommand>
      <EventCommand>
+      <code>11510</code>
+      <indent>0</indent>
+      <string>Ship 1</string>
+      <parameters>10 20 30 40 8448</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11510</code>
+      <indent>0</indent>
+      <string>Ship 1</string>
+      <parameters>10 20 30 40 66064</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -16400,6 +16412,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@bgm.play "Ship 1" .opt v[v[10]], v[v[20]], v[v[30]], v[v[40]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@bgm.play "Ship 1" .opt 10, v[20], v[v[30]], 40</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@bgm.play "Ship 1" .opt v[10], v[v[20]], 30, v[40]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string></string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -16492,7 +16522,7 @@
       <code>11550</code>
       <indent>0</indent>
       <string>(OFF)</string>
-      <parameters>0 0 0</parameters>
+      <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>11550</code>
@@ -16511,6 +16541,18 @@
       <indent>0</indent>
       <string>Blow1</string>
       <parameters>10 20 30 8736</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11550</code>
+      <indent>0</indent>
+      <string>Blow1</string>
+      <parameters>10 20 30 8448</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11550</code>
+      <indent>0</indent>
+      <string>Blow1</string>
+      <parameters>10 20 30 528</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -16540,6 +16582,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@se.play "Blow1" .opt v[v[10]], v[v[20]], v[v[30]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@se.play "Blow1" .opt 10, v[20], v[v[30]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@se.play "Blow1" .opt v[10], v[v[20]], 30</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string></string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
