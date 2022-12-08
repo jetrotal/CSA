@@ -1675,7 +1675,7 @@
       <accessory_id>0</accessory_id>
      </TestBattler>
     </battletest_data>
-    <save_count>2876</save_count>
+    <save_count>2878</save_count>
     <battletest_terrain>0</battletest_terrain>
     <battletest_formation>0</battletest_formation>
     <battletest_condition>1</battletest_condition>
@@ -16531,7 +16531,13 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string></string>
+      <string>@bgm.play t[333] .opt 0, 100, 100, 50</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@bgm.play t[v[444]] .opt 0, 100, 100, 50</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -16657,6 +16663,18 @@
       <parameters>10 20 30 528</parameters>
      </EventCommand>
      <EventCommand>
+      <code>11550</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>100 100 50 1 111</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11550</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>100 100 50 2 222</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -16701,7 +16719,13 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string></string>
+      <string>@se.play t[111] .opt 100, 100, 50</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@se.play t[v[222]] .opt 100, 100, 50</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
