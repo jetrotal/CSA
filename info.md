@@ -319,11 +319,11 @@
    
 
 </details>
-<details>
-<summary>◇Event command</summary>
+<details open>
+<summary open>◇Event command</summary>
 
 <details>
-<summary>##### Complete List</summary>
+#####<summary> Complete List</summary>
 Those are the Event Commands:
 
     @msg.show                  Show text    
