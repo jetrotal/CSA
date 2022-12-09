@@ -1,5 +1,5 @@
 <details>
-<summary>◇Overview</summary>
+<summary> ◇ TPC Overview</summary>
     TPC! TPC!
    
     Pass the source file as the first argument and run
@@ -319,12 +319,9 @@
    
 
 </details>
-<details open>
-<summary open>◇Event command</summary>
-
 <details>
 
- <summary> List of commands</summary>
+ <summary> ◇ Commands Overview</summary>
 Those are the Event Commands:
 
     @msg.show                  Show text    
@@ -504,6 +501,9 @@ Those are the Event Commands:
    
     @raw
    </details>
+
+<details open>
+<summary open> ◇ Event command</summary>
    
 ### ◆ Text <a id='Text'></a>
     @msg.show
@@ -2947,7 +2947,7 @@ Those are the Event Commands:
    
 </details>
 <details>
-<summary>◇Directive</summary>
+<summary> ◇ Directive</summary>
     Specifies what operation to perform
 
 
@@ -3093,7 +3093,7 @@ Those are the Event Commands:
 
 </details>
 <details>
-<summary>◇ Meta syntax</summary>
+<summary> ◇ Meta syntax</summary>
 
 
 ### ◆ Constant definition
