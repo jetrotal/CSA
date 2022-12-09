@@ -2337,7 +2337,9 @@ Those are the Event Commands:
     .extract                Variable expansion within strings
 
    
-(cont. 👆) Character string variable (numericalization)<br>
+(cont.) Character string variable (numericalization)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2352,7 +2354,9 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal
    
    
-(cont. 👆) Character string variable (get length)<br>
+(cont.) Character string variable (get length)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2363,7 +2367,9 @@ Those are the Event Commands:
     .getLen(a)             Output length to variable a
 
    
-(cont. 👆) Character string variable (search)<br>
+(cont.) Character string variable (search)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2379,7 +2385,9 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-(cont. 👆) Character string variable (search by regular expression)<br>
+(cont.) Character string variable (search by regular expression)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2395,7 +2403,9 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-(cont. 👆) Character string variable (extracted by regular expression)<br>
+(cont.) Character string variable (extracted by regular expression)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2411,7 +2421,9 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-(cont. 👆) String variable (split)<br>
+(cont.) String variable (split)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2426,7 +2438,9 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-(cont. 👆) Character string variable (file output)<br>
+(cont.) Character string variable (file output)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
@@ -2444,7 +2458,9 @@ Those are the Event Commands:
 
 
    
-(cont. 👆) Character string variable (cut out one line)<br>
+(cont.) Character string variable (cut out one line)<br>
+-
+
     [Target]
     t[n]
     t[v[n]]
