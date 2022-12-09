@@ -213,3 +213,8 @@ function prepareList(element) {
     //     vanilla[element] = buildHierarchy(vanilla[element], "code");
     // }
 }
+
+function jumpToInfo(){
+    window.open("https://github.com/jetrotal/CSA/blob/main/info.md#-"+currCmd.replaceAll(" ","-").replaceAll("|","").replaceAll("(","").replaceAll(")","")+"-", '_blank').focus();
+
+}
