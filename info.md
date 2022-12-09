@@ -562,7 +562,7 @@ Those are the Event Commands:
     .loopback(a)            Loop back after finishing the specified range. Flag a for whether to set an interval by wrapping
    
 
-### ◆ Show Choices<a id='Show Choices'></a>
+### ◆ Show Choices <a id='Show Choices'></a>
     @msg.choice
 
     [argument]
@@ -617,7 +617,7 @@ Those are the Event Commands:
     .timer2            Operate timer 2
    
    
-### ◆ Change Gold<a id='Change Gold'></a>
+### ◆ Change Gold <a id='Change Gold'></a>
     @party.money
    
     [argument]
@@ -625,7 +625,7 @@ Those are the Event Commands:
     .sub(n)            Decrease value
 
    
-### ◆ Change Items<a id='Change Items'></a>
+### ◆ Change Items <a id='Change Items'></a>
     @party.item
    
     [argument]
@@ -642,7 +642,7 @@ Those are the Event Commands:
     .sub(n)            Leaving actor
 
 
-### ◆ Change EXP<a id='Change EXP'></a>
+### ◆ Change EXP <a id='Change EXP'></a>
     @actor.exp
    
     [argument]
@@ -1357,7 +1357,7 @@ Those are the Event Commands:
     @ev.stopAction
 
    
-### ◆ Wait<a id='Wait'></a>
+### ◆ Wait <a id='Wait'></a>
     @sys.wait
     @wait
    
@@ -1506,7 +1506,7 @@ Those are the Event Commands:
 
 
 ### ◆ TPC | Call System Functions <a id='Call System Functions'></a>
-<a id='TPC | Call System Functions'></a>
+ <a id='TPC | Call System Functions'></a>
     @sys.call
    
     [argument]
@@ -1523,7 +1523,7 @@ Those are the Event Commands:
 
    
 ### ◆ TPC | Control System Functions <a id='Control System Functions'></a>
-<a id='TPC | Control System Functions'></a>
+ <a id='TPC | Control System Functions'></a>
     @sys.limitation
    
     [argument]
@@ -1652,7 +1652,7 @@ Those are the Event Commands:
     .map(a, b)          map event ID, page
    
 
-### ◆ Comment<a id='Comment'></a>
+### ◆ Comment <a id='Comment'></a>
     @comment
    
     [argument]
@@ -1703,7 +1703,7 @@ Those are the Event Commands:
     .disableFileCheck  Disable file content checking
     .disableBlackout    Disable blackout on load
    
-   ### ◆ MNC | End Load Processing (Do Nothing) ???????<a id='MNC | End Load Processing (Do Nothing)'></a>
+   ### ◆ MNC | End Load Processing (Do Nothing) ??????? <a id='MNC | End Load Processing (Do Nothing)'></a>
 
     @raw 3004, ""
    
