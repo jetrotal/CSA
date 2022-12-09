@@ -556,7 +556,7 @@
     .loopback(a)            Loop back after finishing the specified range. Flag a for whether to set an interval by wrapping
    
 
-### ◆Show Choices<a id='Show Choices'></a>"
+### ◆ Show Choices<a id='Show Choices'></a>
     @msg.choice
 
     [argument]
