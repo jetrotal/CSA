@@ -499,7 +499,7 @@
     @raw
    
    
-◆ Text <span id='Text'> _</span>
+◆ Text [-](#){#Text }
     @msg.show
    
     [argument]
@@ -514,7 +514,7 @@
    
    
    
-◆ Display Text Options <span id='Display Text Options'> _</span>
+◆ Display Text Options [-](#){#Display Text Options'> _</span>
     @msg.opt
    
     [argument]
@@ -532,7 +532,7 @@
     .font(a, b)            Text window font name a and size b
    
    
-◆ Change Faceset <span id='Change Faceset'> _</span>
+◆ Change Faceset [-](#){#Change Faceset'> _</span>
     @msg.face
    
     [argument]
@@ -556,7 +556,7 @@
     .loopback(a)            Loop back after finishing the specified range. Flag a for whether to set an interval by wrapping
    
 
-◆Show Choices<span id='Show Choices'> _</span>"
+◆Show Choices[-](#){#Show Choices'> _</span>"
     @msg.choice
 
     [argument]
@@ -574,7 +574,7 @@
     Others                     Execution contents at the time of cancellation
    
 
-◆ Input Number <span id='Input Number'> _</span>
+◆ Input Number [-](#){#Input Number'> _</span>
     @msg.input
     @msg.inputNum
    
@@ -583,7 +583,7 @@
     .dst(n)            Variable to receive result
    
    
-◆ TPC | Control Text Processing <span id='TPC | Control Text Processing'> _</span>
+◆ TPC | Control Text Processing [-](#){#TPC | Control Text Processing'> _</span>
     @msg.hook
    
     .e                  Watch for \e in sentences
@@ -598,7 +598,7 @@
    
    
    
-◆ Timer Operation <span id='Timer Operation'> _</span>
+◆ Timer Operation [-](#){#Timer Operation'> _</span>
     @timer
 
     [argument]
@@ -611,7 +611,7 @@
     .timer2            Operate timer 2
    
    
-◆Change Gold<span id='Change Gold'> _</span>
+◆Change Gold[-](#){#Change Gold'> _</span>
     @party.money
    
     [argument]
@@ -619,7 +619,7 @@
     .sub(n)            Decrease value
 
    
-◆ Change Items<span id='Change Items'> _</span>
+◆ Change Items[-](#){#Change Items'> _</span>
     @party.item
    
     [argument]
@@ -628,7 +628,7 @@
     .sub(n)            Decrease value
 
 
-◆ Change Party Member <span id='Change Party Member'> _</span>
+◆ Change Party Member [-](#){#Change Party Member'> _</span>
     @party.member
    
     [argument]
@@ -636,7 +636,7 @@
     .sub(n)            Leaving actor
 
 
-◆ Change EXP<span id='Change EXP'> _</span>
+◆ Change EXP[-](#){#Change EXP'> _</span>
     @actor.exp
    
     [argument]
@@ -647,7 +647,7 @@
     .notify            Show level up message
 
 
-◆ Change Level <span id='Change Level'> _</span>
+◆ Change Level [-](#){#Change Level'> _</span>
     @actor.level
    
     [argument]
@@ -658,7 +658,7 @@
     .notify            Show level up message
 
 
-◆Change Parameters <span id='Change Parameters'> _</span>
+◆Change Parameters [-](#){#Change Parameters'> _</span>
     @actor.param
    
     [argument]
@@ -674,7 +674,7 @@
     .spd                Make the increase/decrease item agility
    
    
-◆ Change Skills <span id='Change Skills'> _</span>
+◆ Change Skills [-](#){#Change Skills'> _</span>
     @actor.skill
    
     [argument]
@@ -684,7 +684,7 @@
     .sub(n)            Forgetting Special Skill ID
 
    
-◆ Change Equipment <span id='Change Equipment'> _</span>
+◆ Change Equipment [-](#){#Change Equipment'> _</span>
     @actor.equipment
    
     [argument]
@@ -699,7 +699,7 @@
     .clear              Remove all equipment
    
 
-◆Change HP <span id='Change HP'> _</span>
+◆Change HP [-](#){#Change HP'> _</span>
     @actor.hp
 
     [argument]
@@ -709,7 +709,7 @@
     .sub(n)            Decrease value
     .possibleDie         Allow Manipulation Death    
    
-◆Change MP <span id='Change MP'> _</span>
+◆Change MP [-](#){#Change MP'> _</span>
     @actor.mp
 
     [argument]
@@ -719,7 +719,7 @@
     .sub(n)            Decrease value
 
 
-◆ Change State <span id='Change State'> _</span>
+◆ Change State [-](#){#Change State'> _</span>
     @actor.state
 
     [argument]
@@ -729,7 +729,7 @@
     .sub(n)            Status to release
  
  
-◆ Recover All <span id='Recover All'> _</span>
+◆ Recover All [-](#){#Recover All'> _</span>
     @actor.recoverAll
    
     [argument]
@@ -737,7 +737,7 @@
     .all                Target all party members
    
 
-◆ Damage Processing <span id='Damage Processing'> _</span>
+◆ Damage Processing [-](#){#Damage Processing'> _</span>
     @actor.damage
    
     [argument]
@@ -750,7 +750,7 @@
     .dst(n)            Variable to receive damage value
 
    
-◆ Change Actor Name <span id='Change Actor Name'> _</span>
+◆ Change Actor Name [-](#){#Change Actor Name'> _</span>
     @actor.name
    
     [argument]
@@ -758,7 +758,7 @@
     String               Name
 
    
-◆ Change Actor Nickname <span id='Change Actor Nickname'> _</span>
+◆ Change Actor Nickname [-](#){#Change Actor Nickname'> _</span>
     @actor.nickname
    
     [argument]
@@ -766,7 +766,7 @@
     String               Title
 
 
-◆ Change Actor Graphic <span id='Change Actor Graphic'> _</span>
+◆ Change Actor Graphic [-](#){#Change Actor Graphic'> _</span>
     @actor.body
    
     [argument]
@@ -775,7 +775,7 @@
     Numeric value                 File index
     .trans              Make translucent
 
-◆ Change Actor Faceset <span id='Change Actor Faceset'> _</span>
+◆ Change Actor Faceset [-](#){#Change Actor Faceset'> _</span>
     @actor.face
    
     [argument]
@@ -784,7 +784,7 @@
     Numeric value                 File index
    
 
-◆ Change Vehicle Graphic <span id='Change Vehicle Graphic'> _</span>
+◆ Change Vehicle Graphic [-](#){#Change Vehicle Graphic'> _</span>
     @vehicle.body
    
     [argument]
@@ -795,7 +795,7 @@
     .airship            Target an airship
    
 
-◆ Change System BGM <span id='Change System BGM'> _</span>
+◆ Change System BGM [-](#){#Change System BGM'> _</span>
     @sys.bgm
 
     [argument]
@@ -810,7 +810,7 @@
     .opt(a, b, c, d)     Set fade-in time, volume, tempo and balance of BGM    
 
    
-◆ Change System SE <span id='Change System SE'> _</span>
+◆ Change System SE [-](#){#Change System SE'> _</span>
     @sys.se
    
     [argument]
@@ -828,7 +828,7 @@
     .opt(a, b, c)       Set SE volume, tempo and balance    
 
 
-◆ Change System Graphic <span id='Change System Graphic'> _</span>
+◆ Change System Graphic [-](#){#Change System Graphic'> _</span>
     @sys.skin
    
     [argument]
@@ -839,7 +839,7 @@
     .mincho            MS Mincho
    
    
-◆ Change Screen Transition <span id='Change Screen Transition'> _</span>
+◆ Change Screen Transition [-](#){#Change Screen Transition'> _</span>
     @sys.transition
    
     [argument]
@@ -853,7 +853,7 @@
 
 
 ◆  Change location
-◆ Transfer Player <span id='Transfer Player'> _</span>
+◆ Transfer Player [-](#){#Transfer Player'> _</span>
     @map.setPlayer
     @map.setPlayerPos 
     @player.setPos
@@ -868,7 +868,7 @@
     .left              Turn left (only when a constant is specified)
 
    
-◆ Get Player Location <span id='Get Player Location'> _</span>
+◆ Get Player Location [-](#){#Get Player Location'> _</span>
     @map.getPlayerPos
     @map.getPlayer
     @player.getPos
@@ -879,11 +879,11 @@
     Argument 2               y-coordinate storage variable
 
    
-◆ Get On/Off Vehicle <span id='Get On/Off Vehicle'> _</span>
+◆ Get On/Off Vehicle [-](#){#Get On/Off Vehicle'> _</span>
     @vehicle.ride
 
 
-◆Set Vehicle Location <span id='Set Vehicle Location'> _</span>"
+◆Set Vehicle Location [-](#){#Set Vehicle Location'> _</span>"
     @map.setVehicle
     @map.setVehiclePos
     @vehicle.setPos
@@ -902,7 +902,7 @@
     .left              Turn left
    
 
-◆ Set Event Location <span id='Set Event Location'> _</span>
+◆ Set Event Location [-](#){#Set Event Location'> _</span>
     @map.setEv
     @map.setEvPos
     @ev.setPos
@@ -925,7 +925,7 @@
     .face(x)            Face x (up = 0, right, down, left)
    
    
-◆ Swap Event Location <span id='Swap Event Location'> _</span>
+◆ Swap Event Location [-](#){#Swap Event Location'> _</span>
     @ev.swap
    
     [argument]
@@ -934,7 +934,7 @@
     .self              Set the exchange target to this event
    
 
-◆ Get Terrain ID <span id='Get Terrain ID'> _</span>
+◆ Get Terrain ID [-](#){#Get Terrain ID'> _</span>
     @map.getTerrain
    
     [argument]
@@ -942,7 +942,7 @@
     .dst(n)            Destination
 
    
-◆ Get Event ID <span id='Get Event ID'> _</span>
+◆ Get Event ID [-](#){#Get Event ID'> _</span>
     @map.getEv
    
     [argument]
@@ -950,7 +950,7 @@
     .dst(n)            Destination
 
    
-◆ Hide Screen <span id='Hide Screen'> _</span>
+◆ Hide Screen [-](#){#Hide Screen'> _</span>
     @scr.hide
    
     [argument]
@@ -958,7 +958,7 @@
     .default            Follow system switching method (default)
 
 
-◆ Show Screen <span id='Show Screen'> _</span>
+◆ Show Screen [-](#){#Show Screen'> _</span>
     @scr.show
    
     [argument]
@@ -966,7 +966,7 @@
     .default            Follow system switching method (default)
 
 
-◆ Tint Screen <span id='Tint Screen'> _</span>
+◆ Tint Screen [-](#){#Tint Screen'> _</span>
     @scr.tint
    
     [argument]
@@ -975,7 +975,7 @@
     .wait              Wait until completion
 
 
-◆ Flash Screen <span id='Flash Screen'> _</span>
+◆ Flash Screen [-](#){#Flash Screen'> _</span>
     @scr.flash
    
     [argument]
@@ -986,7 +986,7 @@
     .wait              Wait until completion
 
    
-◆ Shake Screen <span id='Shake Screen'> _</span>
+◆ Shake Screen [-](#){#Shake Screen'> _</span>
     @scr.shake
    
     [argument]
@@ -997,7 +997,7 @@
     .wait              Wait until completion
 
    
-◆ Scroll Map <span id='Scroll Map'> _</span>
+◆ Scroll Map [-](#){#Scroll Map'> _</span>
     @scr.scroll
    
     [argument]
@@ -1019,7 +1019,7 @@
     .relative          When the operation is set Treat the specified value as relative coordinates from the current position
    
    
-◆ Weather Effect Settings <span id='Weather Effect Settings'> _</span>
+◆ Weather Effect Settings [-](#){#Weather Effect Settings'> _</span>
     @scr.weather
    
     [argument]
@@ -1033,7 +1033,7 @@
     .strong            Effect Strength Strong
    
 
-◆ Show Picture <span id='Show Picture'> _</span>
+◆ Show Picture [-](#){#Show Picture'> _</span>
     @pic.show
    
     [argument]
@@ -1100,7 +1100,7 @@
     .affectedByShake    Affected by screen shake
  
  
-◆ Move Picture <span id='Move Picture'> _</span>
+◆ Move Picture [-](#){#Move Picture'> _</span>
     @pic.move
    
     [argument]
@@ -1150,7 +1150,7 @@
     .keepTime          Do not change duration
    
  
-◆ Erase Picture <span id='Erase Picture'> _</span>
+◆ Erase Picture [-](#){#Erase Picture'> _</span>
     @pic.erase
 
     [argument]
@@ -1158,7 +1158,7 @@
     .all                Target all pictures
    
 
-◆ Show Animation <span id='Show Animation'> _</span>
+◆ Show Animation [-](#){#Show Animation'> _</span>
     @anim.show
    
     [argument]
@@ -1186,7 +1186,7 @@
     * picTarget/pos/bind cannot be used with tiled
 
 
-◆ Show/Hide Player  <span id='Show/Hide Player'> _</span>
+◆ Show/Hide Player  [-](#){#Show/Hide Player'> _</span>
     @player.trans
     @player.transparent
 
@@ -1196,7 +1196,7 @@
     .off                Unlock
    
 
-◆ Flash Event <span id='Flash Event'> _</span>
+◆ Flash Event [-](#){#Flash Event'> _</span>
     @ev.flash
    
     [argument]
@@ -1212,7 +1212,7 @@
     .wait              Wait until completion
    
 
-◆ Set Move Route <span id='Set Move Route'> _</span>
+◆ Set Move Route [-](#){#Set Move Route'> _</span>
     @ev.setAction
    
     [argument]
@@ -1277,7 +1277,7 @@
     .transDown
    
 
-◆ TPC | Add Move Route <span id='TPC | Add Move Route'> _</span>
+◆ TPC | Add Move Route [-](#){#TPC | Add Move Route'> _</span>
     @ev.addAction
    
     [argument]
@@ -1343,15 +1343,15 @@
    
    
 
-◆ Wait for All Movement <span id='Wait for All Movement'> _</span>
+◆ Wait for All Movement [-](#){#Wait for All Movement'> _</span>
     @ev.execAction
    
 
-◆ Stop All Movement <span id='Stop All Movement'> _</span>
+◆ Stop All Movement [-](#){#Stop All Movement'> _</span>
     @ev.stopAction
 
    
-◆ Wait<span id='Wait'> _</span>
+◆ Wait[-](#){#Wait'> _</span>
     @sys.wait
     @wait
    
@@ -1362,7 +1362,7 @@
     .frame              Make time units frames
    
 
-◆ Play BGM <span id='Play BGM'> _</span>
+◆ Play BGM [-](#){#Play BGM'> _</span>
     @bgm.play
    
     [argument]
@@ -1375,22 +1375,22 @@
    
    
 
-◆ Fadeout BGM' <span id='Fadeout BGM'> _</span>
+◆ Fadeout BGM' [-](#){#Fadeout BGM'> _</span>
     @bgm.fadeout
    
     [argument]
     Numeric value                 Fade out time
    
 
-◆ Memorize BGM <span id='Memorize BGM'> _</span>
+◆ Memorize BGM [-](#){#Memorize BGM'> _</span>
     @bgm.store
 
 
-◆Play Memorized BGM <span id='Play Memorized BGM'> _</span>
+◆Play Memorized BGM [-](#){#Play Memorized BGM'> _</span>
     @bgm.restore
 
    
-◆ Play SE <span id='Play SE'> _</span>
+◆ Play SE [-](#){#Play SE'> _</span>
     @se.play
    
     [argument]
@@ -1402,7 +1402,7 @@
     @se.stop
 
    
-◆ Play Movie <span id='Play Movie'> _</span>
+◆ Play Movie [-](#){#Play Movie'> _</span>
     @movie.play
    
     [argument]
@@ -1411,7 +1411,7 @@
     .size(a, b)         Display size
 
    
-◆ Key Input Processing <span id='Key Input Processing'> _</span>
+◆ Key Input Processing [-](#){#Key Input Processing'> _</span>
     @key.input
    
     [argument]
@@ -1436,7 +1436,7 @@
     .wheelUp
 
 
-◆ Change Tileset <span id='Change Tileset'> _</span>
+◆ Change Tileset [-](#){#Change Tileset'> _</span>
     @map.tileset
    
     [argument]
@@ -1444,7 +1444,7 @@
     Variable                 Tileset ID
    
 
-◆ Change Parallax Back <span id='Change Parallax Back'> _</span>
+◆ Change Parallax Back [-](#){#Change Parallax Back'> _</span>
     @map.parallax
    
     [argument]
@@ -1455,7 +1455,7 @@
     .vscroll(n)        Auto scroll vertically
 
    
-◆ Change Tile <span id='Change Tile'> _</span>
+◆ Change Tile [-](#){#Change Tile'> _</span>
     @map.replaceTile
    
     [argument]
@@ -1465,13 +1465,13 @@
     .upper              Upper
 
 
-◆ Set Encounter Rate <span id='Set Encounter Rate'> _</span>
+◆ Set Encounter Rate [-](#){#Set Encounter Rate'> _</span>
     @btl.encounterRate
    
     [argument]
     Number                 Steps
 
-◆ Set Teleportation Point ??????? <span id='Set Teleportation Point'> _</span>
+◆ Set Teleportation Point ??????? [-](#){#Set Teleportation Point'> _</span>
 
     @raw 11810, "", 0, 1, 0, 0, 0, 1     
 
@@ -1479,19 +1479,19 @@
 
     @raw 11810, "", 0, 1, 0, 0, 1, 1
 
-◆ Teleportation On/Off  ??????? <span id='Teleportation On/Off'> _</span>
+◆ Teleportation On/Off  ??????? [-](#){#Teleportation On/Off'> _</span>
 
     @raw 11820, "", 0
 
     @raw 11820, "", 1
 
-◆ Set Escape Location ??????? <span id='Set Escape Location'> _</span>
+◆ Set Escape Location ??????? [-](#){#Set Escape Location'> _</span>
 
     @raw 11830, "", 1, 0, 0, 0, 1
 
     @raw 11830, "", 1, 0, 0, 1, 1
     
-◆Change Escape Access ??????? <span id='Change Escape Access'> _</span>
+◆Change Escape Access ??????? [-](#){#Change Escape Access'> _</span>
 
     @raw 11840, "", 0
 
@@ -1499,8 +1499,8 @@
 
 
 
-◆ TPC | Call System Functions <span id='Call System Functions'> _</span>
-<span id='TPC | Call System Functions'> _</span>
+◆ TPC | Call System Functions [-](#){#Call System Functions'> _</span>
+[-](#){#TPC | Call System Functions'> _</span>
     @sys.call
    
     [argument]
@@ -1516,8 +1516,8 @@
     .pause              Pause (debug window only)
 
    
-◆ TPC | Control System Functions <span id='Control System Functions'> _</span>
-<span id='TPC | Control System Functions'> _</span>
+◆ TPC | Control System Functions [-](#){#Control System Functions'> _</span>
+[-](#){#TPC | Control System Functions'> _</span>
     @sys.limitation
    
     [argument]
@@ -1530,7 +1530,7 @@
    
    
    
-◆ Label <span id='Label'> _</span>
+◆ Label [-](#){#Label'> _</span>
     @label.set
    
     [argument]
@@ -1543,7 +1543,7 @@
     (label name):
    
    
-◆Jump to Label <span id='Jump to Label'> _</span>
+◆Jump to Label [-](#){#Jump to Label'> _</span>
     @label.jump
     @goto
    
@@ -1552,7 +1552,7 @@
     Character string               Label name (number automatically assigned)
 
    
-◆ Loop <span id='Loop'> _</span>
+◆ Loop [-](#){#Loop'> _</span>
     Infinite loop/number of times
    
     @loop
@@ -1588,7 +1588,7 @@
    
     Element enumeration
    
-◆ TPC | foreach <span id='TPC | foreach'> _</span>
+◆ TPC | foreach [-](#){#TPC | foreach'> _</span>
     @foreach
    
     [Arguments for temporary arrays]
@@ -1608,7 +1608,7 @@
     Others               Loop content
 
 
-◆ Break Loop <span id='Break Loop'> _</span>
+◆ Break Loop [-](#){#Break Loop'> _</span>
     @break
    
     [argument]
@@ -1617,7 +1617,7 @@
    
    
 
-◆Continue <span id='Continue'> _</span>
+◆Continue [-](#){#Continue'> _</span>
     @continue
    
     [argument]
@@ -1626,15 +1626,15 @@
    
    
 
-◆ End Event Processing <span id='End Event Processing'> _</span>
+◆ End Event Processing [-](#){#End Event Processing'> _</span>
     @ev.abort
    
 
-◆ Erase Event <span id='Erase Event'> _</span>
+◆ Erase Event [-](#){#Erase Event'> _</span>
     @ev.erase
    
    
-◆ Call Event <span id='Call Event'> _</span>
+◆ Call Event [-](#){#Call Event'> _</span>
     @ev.call
     @call
    
@@ -1646,26 +1646,26 @@
     .map(a, b)          map event ID, page
    
 
-◆ Comment<span id='Comment'> _</span>
+◆ Comment[-](#){#Comment'> _</span>
     @comment
    
     [argument]
     Character string               Comment content
    
    
-◆ Game Over <span id='Game Over'> _</span>
+◆ Game Over [-](#){#Game Over'> _</span>
     @sys.gameover
    
    
-◆ Return to Title Screen <span id='Return to Title Screen'> _</span>
+◆ Return to Title Screen [-](#){#Return to Title Screen'> _</span>
     @sys.reset
    
    
-◆ Exit Game <span id='Exit Game'> _</span>
+◆ Exit Game [-](#){#Exit Game'> _</span>
     @sys.shutdown
    
    
-◆ MNC | Get Save Info <span id='MNC | Get Save Info'> _</span>
+◆ MNC | Get Save Info [-](#){#MNC | Get Save Info'> _</span>
     @save.getInfo
    
     [argument]
@@ -1678,7 +1678,7 @@
     .face(a, b, c, d)   Picture ID to draw the member's face graphic
    
    
-◆ MNC | Save <span id='MNC | Save'> _</span>
+◆ MNC | Save [-](#){#MNC | Save'> _</span>
     @save.save
    
     [argument]
@@ -1688,7 +1688,7 @@
     .result(n)          Variable to receive save result
    
    
-◆ MNC | Load <span id='MNC | Load'> _</span>
+◆ MNC | Load [-](#){#MNC | Load'> _</span>
     @save.load
    
     [argument]
@@ -1697,11 +1697,11 @@
     .disableFileCheck  Disable file content checking
     .disableBlackout    Disable blackout on load
    
-   ◆ MNC | End Load Processing (Do Nothing) ???????<span id='MNC | End Load Processing (Do Nothing)'> _</span>
+   ◆ MNC | End Load Processing (Do Nothing) ???????[-](#){#MNC | End Load Processing (Do Nothing)'> _</span>
 
     @raw 3004, ""
    
-◆ MNC | Get/Set Mouse Position <span id='MNC | Get Mouse Position'> _</span> <span id='MNC | Set Mouse Position'> _</span>
+◆ MNC | Get/Set Mouse Position [-](#){#MNC | Get Mouse Position'> _</span> [-](#){#MNC | Set Mouse Position'> _</span>
     @mouse
    
     [argument]
@@ -1709,7 +1709,7 @@
     .setPos(a, b)       Coordinates to set
    
    
-◆ MNC | Show String Picture <span id='MNC | Show String Picture'> _</span>
+◆ MNC | Show String Picture [-](#){#MNC | Show String Picture'> _</span>
     @pic.strpic
    
     [argument]
@@ -1780,7 +1780,7 @@
     .affectedByShake    Affected by screen shake
    
    
-◆ MNC | Get Picture Info <span id='MNC | Get Picture Info'> _</span>
+◆ MNC | Get Picture Info [-](#){#MNC | Get Picture Info'> _</span>
     @pic.getInfo
    
     [Argument for rectangle]
@@ -1803,7 +1803,7 @@
     .static                    Get value without effect (default)
 
 
-◆ TPC | Edit Picture <span id='TPC | Edit Picture'> _</span>
+◆ TPC | Edit Picture [-](#){#TPC | Edit Picture'> _</span>
     @pic.setPixel
    
     [argument]
@@ -1816,7 +1816,7 @@
     .skipTransparent            Do not apply transparent pixel data
 
 
-◆TPC | Edit Picture (Tile) <span id='TPC | Edit Picture (Tile)'> _</span>
+◆TPC | Edit Picture (Tile) [-](#){#TPC | Edit Picture (Tile)'> _</span>
     @pic.drawTile
    
     [argument]
@@ -1840,7 +1840,7 @@
     * Use the same pattern as the map by specifying -1 for the pattern    
 
    
-◆ TPC | Output Image <span id='TPC | Output Image'> _</span>
+◆ TPC | Output Image [-](#){#TPC | Output Image'> _</span>
     @img.save
    
     [argument]
@@ -1855,7 +1855,7 @@
     .dst(n)                      Output file name
    
    
-◆ MNC | Key Input Processing EX <span id='MNC | Key Input Processing EX'> _</span>
+◆ MNC | Key Input Processing EX [-](#){#MNC | Key Input Processing EX'> _</span>
     @key.inputEx
    
     [argument]
@@ -1870,7 +1870,7 @@
     .dst(n)                    Start of variable used to get or set
    
    
-◆ MNC | Rewrite Map <span id='MNC | Rewrite Map'> _</span>
+◆ MNC | Rewrite Map [-](#){#MNC | Rewrite Map'> _</span>
     @map.rewrite
    
     [argument]
@@ -1884,7 +1884,7 @@
     .disableAutoTile            Disable auto-tile processing when rewriting the lower layer
 
 
-◆ MNC | Control Variable Array <span id='MNC | Control Variable Array'> _</span>
+◆ MNC | Control Variable Array [-](#){#MNC | Control Variable Array'> _</span>
     Copy
     v[tag1].copy(v[tag2], count)
 
@@ -1924,7 +1924,7 @@
     .sync(a)                      Head a of the array to be operated in conjunction
    
    
-◆ MNC | Control Shared Save <span id='MNC | Control Shared Save'> _</span>
+◆ MNC | Control Shared Save [-](#){#MNC | Control Shared Save'> _</span>
 
     Open/Close/Save/Save and Close
     @gsave.open
@@ -1943,7 +1943,7 @@
     copyfrom            copy to shared save
    
 
-◆ MNC | Set Picture ID <span id='MNC | Set Picture ID'> _</span>
+◆ MNC | Set Picture ID [-](#){#MNC | Set Picture ID'> _</span>
     @pic.setId
    
     [argument]
@@ -1957,7 +1957,7 @@
 
 
 
-◆ MNC | Set Game Option <span id='MNC | Set Game Option'> _</span>
+◆ MNC | Set Game Option [-](#){#MNC | Set Game Option'> _</span>
     @sys.gameOpt
    
     [argument]
@@ -1990,7 +1990,7 @@
     * Arguments for this command can be properly divided into multiple commands except for items that overlap
    
 
-◆ MNC | Call Command <span id='MNC | Call Command'> _</span>
+◆ MNC | Call Command [-](#){#MNC | Call Command'> _</span>
     @cmd
    
     [argument]
@@ -2003,7 +2003,7 @@
    
 
 
-◆ Conditional Branch <span id='Conditional Branch'> _</span>
+◆ Conditional Branch [-](#){#Conditional Branch'> _</span>
     @if
    
     ・Switch
@@ -2126,7 +2126,7 @@
    
     Others                   Execution details when the conditions are met
    
- ◆ TPC | If stringVar <span id='TPC | If stringVar'> _</span>
+ ◆ TPC | If stringVar [-](#){#TPC | If stringVar'> _</span>
         (related to @if)
         String variable (op) String
        
@@ -2141,7 +2141,7 @@
    
    
 
-◆ Control Switches <span id='Control Switches'> _</span>
+◆ Control Switches [-](#){#Control Switches'> _</span>
     s[n].on
     s[n].off
     s[n].toggle
@@ -2149,7 +2149,7 @@
     s[n] = 0
    
    
-◆ Control Variables <span id='Control Variables'> _</span>
+◆ Control Variables [-](#){#Control Variables'> _</span>
 
     [Operation Details]
 
@@ -2237,7 +2237,7 @@
     amax(id, cnt)          Maximum value of v[id]..v[id+cnt-1]
    
    
-◆ TPC | Control String Variables <span id='TPC | Control String Variables'> _</span>
+◆ TPC | Control String Variables [-](#){#TPC | Control String Variables'> _</span>
     t[n]
     t[v[n]]
     t[a..b]
@@ -2454,7 +2454,7 @@
 
 
    
-◆ TPC | Get Game Info <span id='TPC | Get Game Info'> _</span>
+◆ TPC | Get Game Info [-](#){#TPC | Get Game Info'> _</span>
     @sys.getInfo
    
     [common arguments]
@@ -2561,7 +2561,7 @@
     .dst (a), (b)          File output destination T[a], fade-in/volume/tempo/balance V[b..b+3]
    
 
-◆ Change Actor Class <span id='Change Actor Class'> _</span>
+◆ Change Actor Class [-](#){#Change Actor Class'> _</span>
     @actor.class
    
     [argument]
@@ -2585,7 +2585,7 @@
 
 
 
-◆ Change Battle Commands <span id='Change Battle Commands'> _</span>
+◆ Change Battle Commands [-](#){#Change Battle Commands'> _</span>
     @actor.cmd
    
     [argument]
@@ -2599,7 +2599,7 @@
 
 
 
-◆ Toggle ATB Wait Mode <span id='Toggle ATB Wait Mode'> _</span>
+◆ Toggle ATB Wait Mode [-](#){#Toggle ATB Wait Mode'> _</span>
     @btl.atbMode
    
     [argument]
@@ -2607,7 +2607,7 @@
 
    
    
-◆ MNC | Control Battle <span id='MNC | Control Battle'> _</span>
+◆ MNC | Control Battle [-](#){#MNC | Control Battle'> _</span>
     @btl.hook
    
     [argument]
@@ -2623,7 +2623,7 @@
 
 
 
-◆ MNC | Control ATB Gauge <span id='MNC | Control ATB Gauge'> _</span>
+◆ MNC | Control ATB Gauge [-](#){#MNC | Control ATB Gauge'> _</span>
     @btl.atb
    
     [argument]
@@ -2642,7 +2642,7 @@
    
    
    
-◆ MNC | Battle Command EX <span id='MNC | Battle Command EX'> _</span>
+◆ MNC | Battle Command EX [-](#){#MNC | Battle Command EX'> _</span>
     @btl.cmdex
    
     [argument]
@@ -2655,7 +2655,7 @@
    
    
    
-◆ MNC | Get Battle Info <span id='MNC | Get Battle Info'> _</span>
+◆ MNC | Get Battle Info [-](#){#MNC | Get Battle Info'> _</span>
     @btl.getInfo
 
     [argument]
@@ -2678,7 +2678,7 @@
    
    
    
-◆ BT | Change Enemy HP <span id='BT | Change Enemy HP'> _</span>
+◆ BT | Change Enemy HP [-](#){#BT | Change Enemy HP'> _</span>
     @enemy.hp
    
     [argument]
@@ -2692,7 +2692,7 @@
    
    
    
-◆ BT | Change Enemy MP <span id='BT | Change Enemy MP'> _</span>
+◆ BT | Change Enemy MP [-](#){#BT | Change Enemy MP'> _</span>
     @enemy.mp
    
     [argument]
@@ -2703,7 +2703,7 @@
    
    
 
-◆  BT | Change Enemy State <span id='BT | Change Enemy State'> _</span>
+◆  BT | Change Enemy State [-](#){#BT | Change Enemy State'> _</span>
     @enemy.state
    
     [argument]
@@ -2714,7 +2714,7 @@
    
    
    
-◆ BT | Enemy Encounter <span id='BT | Enemy Encounter'> _</span>
+◆ BT | Enemy Encounter [-](#){#BT | Enemy Encounter'> _</span>
     @enemy.appear
    
     [argument]
@@ -2722,7 +2722,7 @@
    
    
    
-◆ BT | Change Battle Background <span id='BT | Change Battle Background'> _</span>
+◆ BT | Change Battle Background [-](#){#BT | Change Battle Background'> _</span>
     @btl.backdrop
 
     [argument]
@@ -2730,7 +2730,7 @@
 
 
 
-◆ BT | Show Animation <span id='BT | Show Animation'> _</span>
+◆ BT | Show Animation [-](#){#BT | Show Animation'> _</span>
     @btl.anim
    
     [argument]
@@ -2745,7 +2745,7 @@
 
 
 
-◆ BT | Action Times + <span id='BT | Action Times +'> _</span>
+◆ BT | Action Times + [-](#){#BT | Action Times +'> _</span>
     @actor.multipleAct
    
     [argument]
@@ -2755,7 +2755,7 @@
    
    
 
-◆ BT | Force Escape <span id='BT | Force Escape'> _</span>
+◆ BT | Force Escape [-](#){#BT | Force Escape'> _</span>
     @btl.forceEscape
    
     [argument]
@@ -2767,7 +2767,7 @@
    
    
 
-◆ BT | Conditional Branch <span id='BT | Conditional Branch'> _</span>
+◆ BT | Conditional Branch [-](#){#BT | Conditional Branch'> _</span>
     @btl.if
    
     [argument]
@@ -2810,7 +2810,7 @@
    
    
 
-◆ BT | Call Common Event <span id='BT | Call Common Event'> _</span>
+◆ BT | Call Common Event [-](#){#BT | Call Common Event'> _</span>
     @btl.cev
    
     [argument]
@@ -2819,12 +2819,12 @@
    
    
 
-◆BT | Abort Battle <span id='BT | Abort Battle'> _</span>
+◆BT | Abort Battle [-](#){#BT | Abort Battle'> _</span>
     @btl.abort
 
 
 
-◆ Name Input Processing <span id='Name Input Processing'> _</span>
+◆ Name Input Processing [-](#){#Name Input Processing'> _</span>
     @actor.inputName
    
     [argument]
@@ -2835,7 +2835,7 @@
    
    
 
-◆ Battle Processing  <span id='Battle Processing'> _</span>
+◆ Battle Processing  [-](#){#Battle Processing'> _</span>
     @btl.begin
    
     [argument]
@@ -2866,7 +2866,7 @@
    
 
 
-◆ Inn Processing <span id='Inn Processing'> _</span>
+◆ Inn Processing [-](#){#Inn Processing'> _</span>
     @inn
    
     [argument]
@@ -2878,7 +2878,7 @@
 
 
 
-◆ Shop Processing <span id='Shop Processing'> _</span>
+◆ Shop Processing [-](#){#Shop Processing'> _</span>
     @shop
    
     [argument]
@@ -2897,17 +2897,17 @@
  
 
    
-◆ Open Load Menu <span id='Open Load Menu'> _</span>
+◆ Open Load Menu [-](#){#Open Load Menu'> _</span>
     @sys.loadMenu
    
    
 
-◆ Open Video Option <span id='Open Video Option'> _</span>
+◆ Open Video Option [-](#){#Open Video Option'> _</span>
     @sys.optionMenu
    
    
 
-◆ Toggle Fullscreen Mode <span id='Toggle Fullscreen Mode'> _</span>
+◆ Toggle Fullscreen Mode [-](#){#Toggle Fullscreen Mode'> _</span>
     @sys.fullscreen
 
     [argument]
@@ -2915,12 +2915,12 @@
 
 
 
-◆ Open Menu Screen <span id='Open Menu Screen'> _</span>
+◆ Open Menu Screen [-](#){#Open Menu Screen'> _</span>
     @sys.partyMenu
    
    
    
-◆ Change Menu Access <span id='Change Menu Access'> _</span>
+◆ Change Menu Access [-](#){#Change Menu Access'> _</span>
     @sys.menuAccess
    
     [argument]
