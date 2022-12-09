@@ -2338,7 +2338,6 @@ Those are the Event Commands:
 
    
 (cont.) Character string variable (numericalization)<br>
-.
 
     [Target]
     t[n]
@@ -2355,7 +2354,6 @@ Those are the Event Commands:
    
    
 (cont.) Character string variable (get length)<br>
-.
 
     [Target]
     t[n]
@@ -2368,7 +2366,6 @@ Those are the Event Commands:
 
    
 (cont.) Character string variable (search)<br>
-.
 
     [Target]
     t[n]
@@ -2386,7 +2383,6 @@ Those are the Event Commands:
 
 
 (cont.) Character string variable (search by regular expression)<br>
-.
 
     [Target]
     t[n]
@@ -2404,7 +2400,6 @@ Those are the Event Commands:
 
 
 (cont.) Character string variable (extracted by regular expression)<br>
-.
 
     [Target]
     t[n]
@@ -2422,7 +2417,6 @@ Those are the Event Commands:
 
 
 (cont.) String variable (split)<br>
-.
 
     [Target]
     t[n]
@@ -2439,7 +2433,6 @@ Those are the Event Commands:
 
 
 (cont.) Character string variable (file output)<br>
-.
 
     [Target]
     t[n]
@@ -2459,7 +2452,6 @@ Those are the Event Commands:
 
    
 (cont.) Character string variable (cut out one line)<br>
-.
 
     [Target]
     t[n]
