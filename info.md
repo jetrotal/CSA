@@ -321,6 +321,11 @@
 </details>
 <details>
 <summary>◇Event command</summary>
+
+<details>
+<summary>Overview</summary>
+Those are the Event Commands:
+
     @msg.show                  Show text    
     @msg.opt                    Setting text options
     @msg.option                Set text options
@@ -497,7 +502,7 @@
     t
    
     @raw
-   
+   </details>
    
 ### ◆ Text <a id='Text'></a>
     @msg.show
