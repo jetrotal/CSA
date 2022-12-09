@@ -323,7 +323,8 @@
 <summary open>◇Event command</summary>
 
 <details>
-#####<summary> Complete List</summary>
+
+ <summary> List of commands</summary>
 Those are the Event Commands:
 
     @msg.show                  Show text    
