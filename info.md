@@ -2337,7 +2337,7 @@ Those are the Event Commands:
     .extract                Variable expansion within strings
 
    
-👆 Character string variable (numericalization)
+(cont. 👆) Character string variable (numericalization)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2352,7 +2352,7 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal
    
    
-👆 Character string variable (get length)
+(cont. 👆) Character string variable (get length)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2363,7 +2363,7 @@ Those are the Event Commands:
     .getLen(a)             Output length to variable a
 
    
-👆 Character string variable (search)
+(cont. 👆) Character string variable (search)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2379,7 +2379,7 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-👆 Character string variable (search by regular expression)
+(cont. 👆) Character string variable (search by regular expression)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2395,7 +2395,7 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-👆 Character string variable (extracted by regular expression)
+(cont. 👆) Character string variable (extracted by regular expression)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2411,7 +2411,7 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-👆 String variable (split)
+(cont. 👆) String variable (split)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2426,7 +2426,7 @@ Those are the Event Commands:
     .hex                    Convert as hexadecimal numbers when expanding numbers
 
 
-👆 Character string variable (file output)
+(cont. 👆) Character string variable (file output)<br>
     [Target]
     t[n]
     t[v[n]]
@@ -2444,7 +2444,7 @@ Those are the Event Commands:
 
 
    
-👆 Character string variable (cut out one line)
+(cont. 👆) Character string variable (cut out one line)<br>
     [Target]
     t[n]
     t[v[n]]
