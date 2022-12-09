@@ -1192,7 +1192,7 @@ Those are the Event Commands:
     * picTarget/pos/bind cannot be used with tiled
 
 
-### ◆ Show/Hide Player  <a id='Show/Hide Player'></a>
+### ◆ Show/Hide Player <a id='Show/Hide Player'></a>
     @player.trans
     @player.transparent
 
@@ -2841,7 +2841,7 @@ Those are the Event Commands:
    
    
 
-### ◆ Battle Processing  <a id='Battle Processing'></a>
+### ◆ Battle Processing <a id='Battle Processing'></a>
     @btl.begin
    
     [argument]
