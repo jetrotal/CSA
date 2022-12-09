@@ -51,7 +51,7 @@ function joinObj(a, attr) {
     for (var i = 0; i < a.length; i++) {
         
        
-        //if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
+        if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
         if (a[i][attr] == 0 || a[i][attr] == "{}") a[i][attr] = "";
        
 
