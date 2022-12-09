@@ -15,7 +15,7 @@
    
    
 
-### ◆Type of value
+### ◆ Type of value
     Character string                   Enclose in "" or ""
     Numeric                     Decimal and Hexadecimal (0x***)
     Array                     [element 0, element 1, ...]
@@ -30,12 +30,12 @@
     Variable Manipulation Expression               `Expression
 
 
-### ◆Comment
+### ◆ Comment
     //                      Line comment
     /**/                    Range comment
 
    
-### ◆Reserved words
+### ◆ Reserved words
     def              
     defs              
     defv              
@@ -73,7 +73,7 @@
 
 
 
-### ◆Common event
+### ◆ Common event
     cev
 
     [argument]
@@ -120,7 +120,7 @@
     The initial value of the map ID that was memorized when the event was created will be inherited.
 
    
-### ◆Map event page
+### ◆ Map event page
     mep
    
     [argument]
@@ -617,7 +617,7 @@ Those are the Event Commands:
     .timer2            Operate timer 2
    
    
-### ◆Change Gold<a id='Change Gold'></a>
+### ◆ Change Gold<a id='Change Gold'></a>
     @party.money
    
     [argument]
@@ -664,7 +664,7 @@ Those are the Event Commands:
     .notify            Show level up message
 
 
-### ◆Change Parameters <a id='Change Parameters'></a>
+### ◆ Change Parameters <a id='Change Parameters'></a>
     @actor.param
    
     [argument]
@@ -705,7 +705,7 @@ Those are the Event Commands:
     .clear              Remove all equipment
    
 
-### ◆Change HP <a id='Change HP'></a>
+### ◆ Change HP <a id='Change HP'></a>
     @actor.hp
 
     [argument]
@@ -715,7 +715,7 @@ Those are the Event Commands:
     .sub(n)            Decrease value
     .possibleDie         Allow Manipulation Death    
    
-### ◆Change MP <a id='Change MP'></a>
+### ◆ Change MP <a id='Change MP'></a>
     @actor.mp
 
     [argument]
@@ -858,7 +858,7 @@ Those are the Event Commands:
     .endBattle_show    Battle end (show)
 
 
-### ◆  Change location
+### ◆ Change location
 ### ◆ Transfer Player <a id='Transfer Player'></a>
     @map.setPlayer
     @map.setPlayerPos 
@@ -889,7 +889,7 @@ Those are the Event Commands:
     @vehicle.ride
 
 
-### ◆Set Vehicle Location <a id='Set Vehicle Location'></a>"
+### ◆ Set Vehicle Location <a id='Set Vehicle Location'></a>"
     @map.setVehicle
     @map.setVehiclePos
     @vehicle.setPos
@@ -1392,7 +1392,7 @@ Those are the Event Commands:
     @bgm.store
 
 
-### ◆Play Memorized BGM <a id='Play Memorized BGM'></a>
+### ◆ Play Memorized BGM <a id='Play Memorized BGM'></a>
     @bgm.restore
 
    
@@ -1497,7 +1497,7 @@ Those are the Event Commands:
 
     @raw 11830, "", 1, 0, 0, 1, 1
     
-### ◆Change Escape Access ??????? <a id='Change Escape Access'></a>
+### ◆ Change Escape Access ??????? <a id='Change Escape Access'></a>
 
     @raw 11840, "", 0
 
@@ -1549,7 +1549,7 @@ Those are the Event Commands:
     (label name):
    
    
-### ◆Jump to Label <a id='Jump to Label'></a>
+### ◆ Jump to Label <a id='Jump to Label'></a>
     @label.jump
     @goto
    
@@ -1623,7 +1623,7 @@ Those are the Event Commands:
    
    
 
-### ◆Continue <a id='Continue'></a>
+### ◆ Continue <a id='Continue'></a>
     @continue
    
     [argument]
@@ -1822,7 +1822,7 @@ Those are the Event Commands:
     .skipTransparent            Do not apply transparent pixel data
 
 
-### ◆TPC | Edit Picture (Tile) <a id='TPC | Edit Picture (Tile)'></a>
+### ◆ TPC | Edit Picture (Tile) <a id='TPC | Edit Picture (Tile)'></a>
     @pic.drawTile
    
     [argument]
@@ -2709,7 +2709,7 @@ Those are the Event Commands:
    
    
 
-### ◆  BT | Change Enemy State <a id='BT | Change Enemy State'></a>
+### ◆ BT | Change Enemy State <a id='BT | Change Enemy State'></a>
     @enemy.state
    
     [argument]
@@ -2825,7 +2825,7 @@ Those are the Event Commands:
    
    
 
-### ◆BT | Abort Battle <a id='BT | Abort Battle'></a>
+### ◆ BT | Abort Battle <a id='BT | Abort Battle'></a>
     @btl.abort
 
 
@@ -2935,7 +2935,7 @@ Those are the Event Commands:
    
    
    
-### ◆Others
+### ◆ Others
     @raw
 
     [argument]
@@ -3042,7 +3042,7 @@ Those are the Event Commands:
     If you write other than at the beginning of the line, it will fail.
    
 
-### ◆Text option
+### ◆ Text option
     #msg
 
     [argument]
@@ -3096,7 +3096,7 @@ Those are the Event Commands:
 <summary>◇ Meta syntax</summary>
 
 
-### ◆Constant definition
+### ◆ Constant definition
     def
    
     Assign a value to any defined name
@@ -3152,7 +3152,7 @@ Those are the Event Commands:
     qwe("abcd" "efgh")
    
    
-### ◆Loop
+### ◆ Loop
     __loop
    
     [Argument (number of times)]
