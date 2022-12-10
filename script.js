@@ -18,6 +18,7 @@ function CollectEvents(text) {
     text = text.replace(/  /gi, "\u2800 ");
     DB = xmlToJson.parse(text);
     DB.LDB.Database.commonevents.CommonEvent.forEach(genEventsList);
+    updateIndent(vanilla);
     main();
 
 }
@@ -219,4 +220,13 @@ function toBin(num) {
     return num.toString(2).replace(/.{4}/g, " $&");
   }
 
+  function updateIndent(obj) {
+    for (let prop in obj) {
+      if (prop === "indent" && !Number.isInteger(obj[prop]))
+        obj[prop] -= 0.5;
+      else if (typeof obj[prop] === "object") 
+        updateIndent(obj[prop]);
+      
+    }
+  }
   init();

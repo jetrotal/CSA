@@ -33,13 +33,30 @@
         
         position: fixed;
         left: 0;
+        padding: 10px;
+        width:100vw;
+
+        background-color: rgba(226, 211, 192, 0.9);
+    }
+
+    
+    #binContainer {
+        
+        position: fixed;
+        right: 0;
         margin: 10px;
+        margin-top: auto;
+        text-align: end;
     }
     
-    #allcmd{
+    #allcmd, #allBin{
         height: 30px;
         margin-bottom: 5px;
 
+    }
+
+    #allBin{
+        width:60vw;
     }
     
     td[id^='van_'],
@@ -53,10 +70,10 @@
     }
 </style>
 
-<div id="title"> <select id="allcmd" autofocus></select>
-<br><a href="javascript:void(0)" onclick="jumpToInfo()">Info</a>
+<div id="title"> <select id="allcmd" autofocus></select>  <span id="binContainer"> <input type="text" id="allBin" autofocus><br> Binary Output</input></span>
+<br><a href="javascript:jumpToInfo()">Info</a>
 </div>
-<br><br><br>
+<br><br><br><br><br>
 <table>
 
     <tbody id="content">
