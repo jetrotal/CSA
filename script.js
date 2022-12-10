@@ -216,9 +216,22 @@ function jumpToInfo(){
 
 }
 
+
+function showBin(num){
+    document.getElementById('b4Bin').innerText = num+": ";
+    document.getElementById('allBin').value = toBin(parseInt(num) );
+}
+
 function toBin(num) {
-    return num.toString(2).replace(/.{4}/g, " $&");
-  }
+    // Convert the number to a binary string
+    var bin = num.toString(2);
+
+    // Pad the binary string with leading zeros so that it has a length that is a multiple of 4
+    bin = bin.padStart(Math.ceil(bin.length / 4) * 4, "0");
+
+    // Insert a space between every group of four digits
+    return bin.replace(/.{4}/g, " $&");
+}
 
   function updateIndent(obj) {
     for (let prop in obj) {
