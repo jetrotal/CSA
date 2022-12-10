@@ -8,59 +8,42 @@ var DB = {};
 tpc_commands = {};
 vanilla = {};
 
-
+function init(){
 fetch('RPG_RT.edb')
     .then(response => response.text())
     .then(text => CollectEvents(text));
+}
 
 function CollectEvents(text) {
-    console.log("jaj", text)
     text = text.replace(/  /gi, "\u2800 ");
     DB = xmlToJson.parse(text);
     DB.LDB.Database.commonevents.CommonEvent.forEach(genEventsList);
-    init();
+    main();
 
 }
 
-
-
-function genEventsList(a, b, c) {
-
-    a.event_commands.EventCommand = buildHierarchy(a.event_commands.EventCommand, "indent");
-    a.event_commands.EventCommand = buildHierarchy(a.event_commands.EventCommand, "code");
-
-    var commentCMD = a.event_commands.EventCommand.length - 1;
-
-    if (a.event_commands.EventCommand[commentCMD].string == "//TPC_snippet") {
-        // console.log(tpc_commands["TPC | If stringVar"]);
-        // console.log(a.name, JSON.stringify(a.event_commands.EventCommand[commentCMD].children));
-
-        tpc_commands[a.name] = joinObj(a.event_commands.EventCommand[commentCMD].children, "string");
-
-        //a.event_commands.EventCommand = a.event_commands.EventCommand.slice(0, -1)
-    }
-    vanilla[a.name] = a.event_commands.EventCommand;
-}
-
-//joinObj(vanilla.Text[vanilla.Text.length - 1].children, "string")
-
-function joinObj(a, attr) {
-    var out = [];
-    //a[0][attr] = "\n " + a[0][attr]
-
-    for (var i = 0; i < a.length; i++) {
-        
-       
-        if (typeof a[i][attr] === 'object') a[i][attr] = JSON.stringify(a[i][attr]);
-        if (a[i][attr] == 0 || a[i][attr] == "{}") a[i][attr] = "";
-       
-
-        out.push("\n " + ((a[i][attr])));
-        // console.log(a[i][attr]);
-    }
-
+function genEventsList(a) {
+    let { EventCommand } = a.event_commands;
+    EventCommand = buildHierarchy(EventCommand, ["indent", "code"]);
+  
+    let lastElement = EventCommand.find(item => item.string === "//TPC_snippet");
+    tpc_commands[a.name] = lastElement ? joinObj(lastElement.children, "string") : "";
+  
+    vanilla[a.name] = EventCommand;
+  }
+  
+  function joinObj(a, attr) {
+    var out = a.reduce(function(acc, item) {
+      var value = item[attr];
+      if (typeof value === 'object') value = JSON.stringify(value);
+      if (value && value !== "{}") acc.push("\n " + value);
+  
+      return acc;
+    }, []);
+  
     return out.join("");
-}
+  }
+  
 
 function formatTPCArr(arr) {
     var result = [];
@@ -164,38 +147,55 @@ function generateHTML(el, ind) {
     </tr>
     `;
 
-    diffCheck(document.getElementById("van_" + ind), document.getElementById("van_0"));
-    diffCheck(document.getElementById("tpc_" + ind), document.getElementById("tpc_0"));
+    let ind2 = ind > 0 ? ind - 1 : 0
+
+    diffCheck(document.getElementById("van_" + ind), document.getElementById("van_"+ ind2));
+    diffCheck(document.getElementById("tpc_" + ind), document.getElementById("tpc_"+ ind2));
 
 }
 
 function diffCheck(b = "", a = "") {
-    x = a.innerText.split("\n").join(" <br> ") //.split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
-    y = b.innerText.split("\n").join(" <br> ") //.split(",").join(" , ").split(":").join(" : ").split('""').join("xtexmpx").split('"').join(' " ').split("xtexmpx").join('""');
+    // Split the text into separate words and convert line breaks to HTML <br> tags
+    x = a.innerText.split(" ").map(word => word.replaceAll("\n", " <br> "));
+    y = b.innerText.split(" ").map(word => word.replaceAll("\n", " <br> "));
+    
+    // Iterate through the words in b
+    for (let j = 0; j < y.length; j++) {
+    // If the current word from b is not in a, highlight it
+    if (!x.includes(y[j])) {
+    y[j] = "<a class='highlight'>" + y[j] + "</a>";
+    // If the words match, move on to the next word
+} else if (x[j] == y[j]) {
+  continue;
 
-    x = x.split(" ").filter(n => n);
-    y = y.split(" ").filter(n => n);
+// If the next word in a matches the current word in b,
+// highlight the current word in b and move on to the next word
+} else if (x[j + 1] == y[j]) {
+  y[j] = "<a class='highlight'>" + y[j] + "</a>";
 
-    for (var i = j = 0; x[i] && y[j];) {
-        if (-1 == x.indexOf(y[j]) && (y[j] = "<a class='highlight'>" + y[j] + "</a>"), x[i] == y[j]) i++, j++
-            else {
-                if (x[i] == y[j + 1]) /**console.log("Extra word : " + y[j]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
-                    else {
-                        if (x[i + 1] == y[j]) /**console.log("Skip word: " + x[i]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
-                            else {
-                                if (x[i + 1] == y[j + 1]) /**console.log("Diff word: " + y[j]),/**/ y[j] = "<a class='highlight'>" + y[j] + "</a>", i++, j++
-                                    else break;
+// If the current word in a matches the next word in b,
+// move on to the next word in both a and b
+} else if (x[j] == y[j + 1]) {
+  continue;
 
-                            }
-                    }
-            }
-    }
-    // console.log(y);
-    b.innerHTML = y.join(" ");
+// If the next word in a matches the next word in b,
+// highlight the current word in b and move on to the next word in both a and b
+} else if (x[j + 1] == y[j + 1]) {
+  y[j] = "<a class='highlight'>" + y[j] + "</a>";
+
+// If the words do not match and there are no more matching words,
+// stop the loop
+} else {
+  //break;
+}
 }
 
+b.innerHTML = y.join(" ");
+}
+  
 
-function init() {
+
+function main() {
     cmdList = Object.keys(tpc_commands);
     currCmd = cmdList.includes(hash) ? hash : cmdList[0],
 
@@ -206,15 +206,17 @@ function init() {
 }
 
 function prepareList(element) {
-    // console.log(element)
+
     tpc_commands[element] = formatTPCArr(tpc_commands[element]);
-    // if (vanilla[element] instanceof Array) {
-    //     vanilla[element] = buildHierarchy(vanilla[element], "indent");
-    //     vanilla[element] = buildHierarchy(vanilla[element], "code");
-    // }
 }
 
 function jumpToInfo(){
     window.open("https://github.com/jetrotal/CSA/blob/main/info.md#-"+currCmd.replaceAll(" ","-").replaceAll("|","").replaceAll("(","").replaceAll(")","")+"-", '_blank').focus();
 
 }
+
+function toBin(num) {
+    return num.toString(2).replace(/.{4}/g, " $&");
+  }
+
+  init();
