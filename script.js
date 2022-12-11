@@ -5,8 +5,11 @@ var hash = decodeURI(window.location.hash.substring(1)),
     title = document.getElementById("title");
 
 var DB = {};
-tpc_commands = {};
-vanilla = {};
+var tpc_commands = {};
+var vanilla = {};
+var gen = 0;
+
+var _sep = ['\$prefix\$','\$suffix\$',]
 
 function init(){
 fetch('RPG_RT.edb')
@@ -125,22 +128,28 @@ function populateSelectBox() {
         currCmd = allCmd.value;
         window.location.hash = allCmd.value;
         populateTable();
+
     });
 
 }
 
 function populateTable() {
     content.innerHTML = "";
+   
     tpc_commands[currCmd][0] ? tpc_commands[currCmd].forEach(generateHTML) : generateHTML(tpc_commands[currCmd], 0);
+    
+    document.getElementById('content').innerHTML = document.getElementById('content').innerHTML.replaceAll(_sep[1],"</a>").replaceAll(_sep[0],"<a href='javascript:void(0)' onclick='showBin(this.innerText)'>")
 }
 
 function generateHTML(el, ind) {
-    try {
-        var vanHTML = JSON.stringify(vanilla[currCmd][ind], null, "\u2800 ").split("\n").join("<br>");
-    } catch (e) {
-        vanHTML = JSON.stringify(vanilla[currCmd], null, "\u2800 ").split("\n").join("<br>");
-    }
+    if (gen == 0)   updateParams(vanilla), gen = 1;
 
+   if (ind in vanilla[currCmd])
+        var vanHTML = JSON.stringify(vanilla[currCmd][ind], null, "\u2800 ").split("\n").join("<br>");
+    else 
+        vanHTML = JSON.stringify(vanilla[currCmd], null, "\u2800 ").split("\n").join("<br>");
+
+    
     content.innerHTML += `
     <tr>
     <td id="tpc_${ind}" >${el.split("\n").join("<br>").replace(/\u2800/gi,"&nbsp; ")}</td>
@@ -148,10 +157,14 @@ function generateHTML(el, ind) {
     </tr>
     `;
 
-    let ind2 = ind > 0 ? ind - 1 : 0
 
+    let ind2 = ind > 0 ? ind - 1 : 0
+ 
+    diffCheck(document.getElementById("tpc_" + ind), document.getElementById("tpc_"+ ind2)); 
     diffCheck(document.getElementById("van_" + ind), document.getElementById("van_"+ ind2));
-    diffCheck(document.getElementById("tpc_" + ind), document.getElementById("tpc_"+ ind2));
+    updateIndent(vanilla);
+  
+   // content.innerHTML = content.innerHTML.replaceAll("xxxegua","</a>").replaceAll("xxegua","<a href='javascript:void(0)' onclick='showBin(this.innerText)'>")
 
 }
 
@@ -164,7 +177,7 @@ function diffCheck(b = "", a = "") {
     for (let j = 0; j < y.length; j++) {
     // If the current word from b is not in a, highlight it
     if (!x.includes(y[j])) {
-    y[j] = "<a class='highlight'>" + y[j] + "</a>";
+    y[j] = "<mark>" + y[j] + "</mark>";
     // If the words match, move on to the next word
 } else if (x[j] == y[j]) {
   continue;
@@ -172,7 +185,7 @@ function diffCheck(b = "", a = "") {
 // If the next word in a matches the current word in b,
 // highlight the current word in b and move on to the next word
 } else if (x[j + 1] == y[j]) {
-  y[j] = "<a class='highlight'>" + y[j] + "</a>";
+  y[j] = "<mark>" + y[j] + "</mark>";
 
 // If the current word in a matches the next word in b,
 // move on to the next word in both a and b
@@ -182,7 +195,7 @@ function diffCheck(b = "", a = "") {
 // If the next word in a matches the next word in b,
 // highlight the current word in b and move on to the next word in both a and b
 } else if (x[j + 1] == y[j + 1]) {
-  y[j] = "<a class='highlight'>" + y[j] + "</a>";
+  y[j] = "<mark>" + y[j] + "</mark>";
 
 // If the words do not match and there are no more matching words,
 // stop the loop
@@ -193,6 +206,7 @@ function diffCheck(b = "", a = "") {
 
 b.innerHTML = y.join(" ");
 }
+
   
 
 
@@ -218,19 +232,25 @@ function jumpToInfo(){
 
 
 function showBin(num){
-    document.getElementById('b4Bin').innerText = num+": ";
+    document.getElementById('b4Bin').value = num;
     document.getElementById('allBin').value = toBin(parseInt(num) );
 }
 
-function toBin(num) {
-    // Convert the number to a binary string
-    var bin = num.toString(2);
+function toBin(input, bits = 16) {
+    // Convert the input number to a binary string
+    let binary = input.toString(2);
 
-    // Pad the binary string with leading zeros so that it has a length that is a multiple of 4
-    bin = bin.padStart(Math.ceil(bin.length / 4) * 4, "0");
+    while (binary.length > bits) 
+    bits = bits * 2;
 
-    // Insert a space between every group of four digits
-    return bin.replace(/.{4}/g, " $&");
+    // Zero-pad the binary string to get a 16-bit value
+    binary = binary.padStart(bits, "0");
+    // while binary string is longer than the specified number of bits,
+    // double the number of bits
+   
+   
+    // Split the binary string into groups of four digits
+    return binary.match(/.{1,4}/g).join(" ");
 }
 
   function updateIndent(obj) {
@@ -242,4 +262,28 @@ function toBin(num) {
       
     }
   }
+
+  function updateParams(obj) {
+    // Recursively traverse the given object
+    for (const key in obj) {
+        const value = obj[key];
+        if (typeof value === "object") {
+            updateParams(value);
+        } else if (key === "parameters" && typeof value === "string") {
+            // Split the string into an array of individual parameters
+            const params = value.split(" ");
+            // Convert each parameter into a HTM L link
+            obj[key] = params.map(param => {
+                return ` ${_sep[0]}${param}${_sep[1]} `;
+                return `<a href='javascript:void(0)' onclick='showBin(this.innerText)'>${param} </a>`;
+            });
+        }
+    }
+    if(Array.isArray(obj.parameters))
+    obj.parameters = obj.parameters.join(" ");
+    console.log(obj.parameters)
+
+}
+
+  
   init();
