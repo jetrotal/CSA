@@ -233,7 +233,7 @@ function jumpToInfo(){
 
 function showBin(num){
     document.getElementById('b4Bin').value = num;
-    document.getElementById('allBin').value = toBin(parseInt(num) );
+    document.getElementById('allBin').value = toParam(toBin(parseInt(num) ));
 }
 
 function toBin(input, bits = 16) {
@@ -252,6 +252,17 @@ function toBin(input, bits = 16) {
     // Split the binary string into groups of four digits
     return binary.match(/.{1,4}/g).join(" ");
 }
+
+function toParam(binary) {
+    // Split the binary string on the space character
+    let binaryGroups = binary.split(" ");
+  
+    // Convert each group of four binary digits to a decimal value
+    let decimalValues = binaryGroups.map(group => parseInt(group, 2));
+  
+    // Join the decimal values with a comma and return the result
+    return decimalValues.reverse();
+  }
 
   function updateIndent(obj) {
     for (let prop in obj) {
