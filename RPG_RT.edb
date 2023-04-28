@@ -68,7 +68,7 @@
    <Skill id="0001">
     <name>Poison Attack</name>
     <description>Damages and poisons an enemy</description>
-    <using_message1>�̍U���I</using_message1>
+    <using_message1>の攻撃！</using_message1>
     <using_message2></using_message2>
     <failure_message>3</failure_message>
     <type>0</type>
@@ -988,11 +988,11 @@
     <restrict_magic_level>0</restrict_magic_level>
     <hp_change_type>0</hp_change_type>
     <sp_change_type>0</sp_change_type>
-    <message_actor>�͓|�ꂽ�I</message_actor>
-    <message_enemy>��|�����I</message_enemy>
+    <message_actor>は倒れた！</message_actor>
+    <message_enemy>を倒した！</message_enemy>
     <message_already></message_already>
     <message_affected></message_affected>
-    <message_recovery>�͗����オ�����I</message_recovery>
+    <message_recovery>は立ち上がった！</message_recovery>
     <hp_change_max>0</hp_change_max>
     <hp_change_val>0</hp_change_val>
     <hp_change_map_steps>0</hp_change_map_steps>
@@ -1331,31 +1331,31 @@
     <gold_recieved_a>You found</gold_recieved_a>
     <gold_recieved_b>!</gold_recieved_b>
     <item_recieved>obtained!</item_recieved>
-    <attacking>�̍U���I</attacking>
-    <enemy_critical>��S�̈ꌂ�I�I</enemy_critical>
-    <actor_critical>�ɍ��̈ꌂ�I�I</actor_critical>
-    <defending>�͐g������Ă���I</defending>
-    <observing>�͗l�q�����Ă���E�E�E</observing>
-    <focus>�͗͂����߂Ă���E�E�E</focus>
-    <autodestruction>�͎��������I</autodestruction>
-    <enemy_escape>�͓����Ă��܂����I</enemy_escape>
-    <enemy_transform>�͎p��ς����I</enemy_transform>
-    <enemy_damaged>�̃_���[�W��^�����I</enemy_damaged>
-    <enemy_undamaged>�Ƀ_���[�W��^�����Ȃ��I</enemy_undamaged>
-    <actor_damaged>�̃_���[�W���󂯂��I</actor_damaged>
-    <actor_undamaged>�̓_���[�W���󂯂Ă��Ȃ��I</actor_undamaged>
-    <skill_failure_a>�ɂ͌����Ȃ������I</skill_failure_a>
-    <skill_failure_b>�͕��C�������I</skill_failure_b>
-    <skill_failure_c>�͖���Ȃ������I</skill_failure_c>
-    <dodge>�͍U�������킵���I</dodge>
-    <use_item>���g�����I</use_item>
-    <hp_recovery>�񕜂����I</hp_recovery>
-    <parameter_increase>�オ�����I</parameter_increase>
-    <parameter_decrease>���������I</parameter_decrease>
-    <enemy_hp_absorbed>�D�����I</enemy_hp_absorbed>
-    <actor_hp_absorbed>�D��ꂽ�I</actor_hp_absorbed>
-    <resistance_increase>�ɋ����Ȃ����I</resistance_increase>
-    <resistance_decrease>�Ɏキ�Ȃ����I</resistance_decrease>
+    <attacking>の攻撃！</attacking>
+    <enemy_critical>会心の一撃！！</enemy_critical>
+    <actor_critical>痛恨の一撃！！</actor_critical>
+    <defending>は身を守っている！</defending>
+    <observing>は様子を見ている・・・</observing>
+    <focus>は力をためている・・・</focus>
+    <autodestruction>は自爆した！</autodestruction>
+    <enemy_escape>は逃げてしまった！</enemy_escape>
+    <enemy_transform>は姿を変えた！</enemy_transform>
+    <enemy_damaged>のダメージを与えた！</enemy_damaged>
+    <enemy_undamaged>にダメージを与えられない！</enemy_undamaged>
+    <actor_damaged>のダメージを受けた！</actor_damaged>
+    <actor_undamaged>はダメージを受けていない！</actor_undamaged>
+    <skill_failure_a>には効かなかった！</skill_failure_a>
+    <skill_failure_b>は平気だった！</skill_failure_b>
+    <skill_failure_c>は眠らなかった！</skill_failure_c>
+    <dodge>は攻撃をかわした！</dodge>
+    <use_item>を使った！</use_item>
+    <hp_recovery>回復した！</hp_recovery>
+    <parameter_increase>上がった！</parameter_increase>
+    <parameter_decrease>下がった！</parameter_decrease>
+    <enemy_hp_absorbed>奪った！</enemy_hp_absorbed>
+    <actor_hp_absorbed>奪われた！</actor_hp_absorbed>
+    <resistance_increase>に強くなった！</resistance_increase>
+    <resistance_decrease>に弱くなった！</resistance_decrease>
     <level_up>reached</level_up>
     <skill_learned>was learned!</skill_learned>
     <battle_start></battle_start>
@@ -1409,8 +1409,8 @@
     <battle_fight>Fight</battle_fight>
     <battle_auto>Auto</battle_auto>
     <battle_escape>Escape</battle_escape>
-    <command_attack>�U��</command_attack>
-    <command_defend>�h��</command_defend>
+    <command_attack>攻撃</command_attack>
+    <command_defend>防御</command_defend>
     <command_item>Items</command_item>
     <command_skill>Skills</command_skill>
     <menu_equipment>Equipment</menu_equipment>
@@ -1779,6 +1779,24 @@
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
+      <code>10110</code>
+      <indent>0</indent>
+      <string>\t[1]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10110</code>
+      <indent>0</indent>
+      <string>\t[v[2]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10110</code>
+      <indent>0</indent>
+      <string>\t[v[v[3]]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -1812,6 +1830,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>4"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.show "\t[1]"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.show "\t[v[2]]"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.show "\t[v[v[3]]]"</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -2260,12 +2296,6 @@
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string></string>
-      <parameters></parameters>
-     </EventCommand>
     </event_commands>
    </CommonEvent>
    <CommonEvent id="0003">
@@ -2278,13 +2308,13 @@
       <code>10130</code>
       <indent>0</indent>
       <string>Actor1</string>
-      <parameters>0 0 0</parameters>
+      <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string>Actor1</string>
-      <parameters>0 1 0</parameters>
+      <parameters>0 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
@@ -2296,7 +2326,19 @@
       <code>10130</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 0 0</parameters>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10130</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 0 0 1 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10130</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 0 0 2 2</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -2328,6 +2370,18 @@
       <string>@msg.face "", 0, .left</string>
       <parameters></parameters>
      </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.face t[1], 0, .left</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.face t[v[2]], 0, .left</string>
+      <parameters></parameters>
+     </EventCommand>
     </event_commands>
    </CommonEvent>
    <CommonEvent id="0004">
@@ -2339,7 +2393,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>0</parameters>
      </EventCommand>
      <EventCommand>
@@ -2399,7 +2453,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>1</parameters>
      </EventCommand>
      <EventCommand>
@@ -2459,7 +2513,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>2</parameters>
      </EventCommand>
      <EventCommand>
@@ -2519,7 +2573,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>3</parameters>
      </EventCommand>
      <EventCommand>
@@ -2579,7 +2633,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>4</parameters>
      </EventCommand>
      <EventCommand>
@@ -2639,7 +2693,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1, c2, c3, c4</string>
+      <string></string>
       <parameters>5</parameters>
      </EventCommand>
      <EventCommand>
@@ -2711,13 +2765,61 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>c1</string>
+      <string></string>
       <parameters>0</parameters>
      </EventCommand>
      <EventCommand>
       <code>20140</code>
       <indent>0</indent>
       <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string>\t[1]</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>\t[1]</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string>\t[v[2]]</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>\t[v[2]]</string>
       <parameters>0</parameters>
      </EventCommand>
      <EventCommand>
@@ -3300,6 +3402,78 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel .ignore</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "\t[1]" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel .ignore</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "\t[v[2]]" {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -5691,6 +5865,18 @@
       <parameters>2 1 1 1</parameters>
      </EventCommand>
      <EventCommand>
+      <code>10480</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 1 1 2 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10480</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 1 1 3 2</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -5718,6 +5904,18 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@actor[v[1]].state .sub 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@actor[v[1]].state .sub v[2]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@actor[v[1]].state .sub v[v[3]]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -5859,6 +6057,18 @@
       <parameters>1</parameters>
      </EventCommand>
      <EventCommand>
+      <code>10610</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1 32 2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10610</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1 16 1</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -5868,6 +6078,18 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@actor[1].name "NewName"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@actor[1].name t[v[2]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@actor[1].name t[1]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -8791,6 +9013,18 @@
       <parameters>19</parameters>
      </EventCommand>
      <EventCommand>
+      <code>11010</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11010</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 2</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -8940,7 +9174,7 @@
       <code>11020</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0</parameters>
+      <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>11020</code>
@@ -9055,6 +9289,18 @@
       <indent>0</indent>
       <string></string>
       <parameters>19</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11020</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11020</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 2</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -9186,6 +9432,18 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@scr.show 19</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@scr.show v[1]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@scr.show v[v[2]]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
