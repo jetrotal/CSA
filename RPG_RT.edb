@@ -1741,7 +1741,7 @@
     <name></name>
    </Variable>
   </variables>
-  <commonevents>
+   <commonevents>
    <CommonEvent id="0001">
     <name>Text</name>
     <trigger>5</trigger>
@@ -4293,6 +4293,12 @@
       <parameters>0 1 1 0 20 5 0 0 0 0 0</parameters>
      </EventCommand>
      <EventCommand>
+      <code>10220</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 1 0 0 21 5 16844819 50397697 83952641 117507585 2049</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -4956,6 +4962,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>v[1] = 0 != 0 ? 0 : 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[1] = [1, 2, 3, 4, 5, 6, 7, 8]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
