@@ -1741,7 +1741,7 @@
     <name></name>
    </Variable>
   </variables>
-   <commonevents>
+  <commonevents>
    <CommonEvent id="0001">
     <name>Text</name>
     <trigger>5</trigger>
@@ -22004,115 +22004,115 @@
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>1 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>1 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>2 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>2 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>16 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>16 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>32 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>32 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>16777216 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>16777216 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>33554432 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>33554432 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>50331648 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>50331648 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>67108864 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>67108864 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>83886080 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>83886080 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>100663296 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>100663296 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>117440512 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>117440512 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>134217728 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>134217728 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>65536 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>65536 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>131072 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>131072 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>256 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>256 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>4352 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>4352 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>8448 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>8448 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
@@ -22136,259 +22136,277 @@
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 1 5 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 1 5 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 2 5 0 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 2 5 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 94464 262144 0 0 0 0 0 12 1</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 94464 262144 7 0 97 0 0 12 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 16871680 262144 0 0 0 0 0 12 1</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 16871680 262144 7 0 97 0 0 12 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 33648896 262144 0 0 0 0 0 12 1</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 33648896 262144 7 0 97 0 0 12 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 268529920 262144 0 0 0 0 0 12 1</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 268529920 262144 7 0 97 0 0 12 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 536965376 262144 0 0 0 0 0 12 1</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 3 0 0 536965376 262144 7 0 97 0 0 12 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 1 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 1 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 2 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 2 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 3 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 3 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 16 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 16 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 32 94464 262144 0 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 32 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 1 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 1 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 2 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 2 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 3 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 3 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 4 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 4 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 5 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 5 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 6 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 6 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 8 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 8 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 9 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 9 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 10 0 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 10 0 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 1 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 1 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 2 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 2 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 3 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 3 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 4 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 4 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 5 0 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 5 97 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 1 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 1 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 2 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 2 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 16 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 16 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 32 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 32 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;System</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>1048576 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 64 0 0 12</parameters>
+      <parameters>1048576 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>2097152 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 64 0 0 12</parameters>
+      <parameters>2097152 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 127232 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 127232 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;blue&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94464 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94208 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94208 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94720 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 94720 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 90368 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 90368 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 28928 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 28928 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 86272 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 86272 262144 7 0 64 0 0 12</parameters>
      </EventCommand>
      <EventCommand>
       <code>3007</code>
       <indent>0</indent>
       <string>&#xe001;&#xe001;&#xe001;</string>
-      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 78080 262144 0 0 64 0 0 12</parameters>
+      <parameters>0 1 160 120 100 0 100 100 100 100 0 0 0 78080 262144 7 0 64 0 0 12</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3007</code>
+      <indent>0</indent>
+      <string>&#xe001;test&#xe001;&#xe001;</string>
+      <parameters>0 1 80 160 100 0 100 100 100 100 0 0 0 256 262145 7 0 97 0 0 12</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3007</code>
+      <indent>0</indent>
+      <string>&#xe002;&#xe001;&#xe001;</string>
+      <parameters>0 1 80 160 100 0 100 100 100 100 0 0 0 256 262145 7 0 97 0 0 12 0 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3007</code>
+      <indent>0</indent>
+      <string>&#xe003;&#xe001;&#xe001;</string>
+      <parameters>0 1 80 160 100 0 100 100 100 100 0 0 0 256 262145 7 0 97 0 0 12 0 2</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -22454,6 +22472,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -22525,6 +22567,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -22586,6 +22652,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -22657,6 +22747,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -22718,6 +22832,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -22789,6 +22927,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -22850,6 +23012,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -22921,6 +23107,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -22982,6 +23192,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -23053,6 +23287,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23114,6 +23372,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -23185,6 +23467,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23251,6 +23557,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23312,6 +23642,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -23383,6 +23737,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23449,6 +23827,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23510,6 +23912,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -23581,6 +24007,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -23642,6 +24092,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -23959,6 +24433,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24026,6 +24524,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .wave 5</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24103,6 +24625,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24170,6 +24716,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .angle v[0], 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24247,6 +24817,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24314,6 +24908,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .angle 0, v[1]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24391,6 +25009,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24458,6 +25100,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .multi</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24535,6 +25201,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24602,6 +25292,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .overlay</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24679,6 +25393,30 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24746,6 +25484,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .vrev </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24823,6 +25585,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -24890,6 +25670,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .mapLayer 2</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -24967,6 +25765,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25034,6 +25850,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .mapLayer 4</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25111,6 +25945,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25178,6 +26030,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .mapLayer 6</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25255,6 +26125,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25322,6 +26210,24 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .mapLayer 8</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25399,6 +26305,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25471,6 +26395,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25532,6 +26474,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25543,6 +26491,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25604,6 +26570,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25615,6 +26587,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25676,6 +26666,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25687,6 +26683,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25748,6 +26762,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25759,6 +26779,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25820,6 +26858,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25831,6 +26875,24 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>}</string>
       <parameters></parameters>
      </EventCommand>
@@ -25892,6 +26954,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -25969,6 +27037,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .eraseWhenEndBattle</string>
       <parameters></parameters>
      </EventCommand>
@@ -26036,6 +27110,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26113,6 +27193,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByFlash</string>
       <parameters></parameters>
      </EventCommand>
@@ -26180,6 +27266,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26257,6 +27349,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26324,6 +27422,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26401,6 +27505,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26468,6 +27578,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26545,6 +27661,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26612,6 +27734,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .nobg .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26689,6 +27817,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26756,6 +27890,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -26833,6 +27973,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26905,6 +28051,12 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
       <string>    .affectedByShake</string>
       <parameters></parameters>
      </EventCommand>
@@ -26972,6 +28124,282 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .skin "" .stretch .noframe .noGradation .noPadding</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@pic[1].strpic {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    "test"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .pos 80, 160 .center</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .size 0, 0    .chromakey 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .scale 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .trans 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .rgbs 100, 100, 100, 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .font "", 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .spacing 0, 4</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .skin "" .stretch</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@pic[1].strpic {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    t[1]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .pos 80, 160 .center</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .size 0, 0    .chromakey 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .scale 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .trans 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .rgbs 100, 100, 100, 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .font "", 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .spacing 0, 4</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .skin "" .stretch</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByShake</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@pic[1].strpic {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    t[v[2]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .pos 80, 160 .center</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .size 0, 0    .chromakey 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .scale 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .trans 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .rgbs 100, 100, 100, 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .font "", 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .spacing 0, 4</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .skin "" .stretch</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .mapLayer 7</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .eraseWhenTransfer</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .affectedByFlash</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
