@@ -13286,6 +13286,12 @@
       <code>11120</code>
       <indent>0</indent>
       <string></string>
+      <parameters>1 0 160 120 0 100 0 0 100 100 100 100 0 0 10 3 0 0 0 0 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11120</code>
+      <indent>0</indent>
+      <string></string>
       <parameters>1 0 160 120 0 100 0 0 100 100 100 100 0 0 10 1 0 1 0 0 0 0</parameters>
      </EventCommand>
      <EventCommand>
@@ -13394,13 +13400,13 @@
       <code>11120</code>
       <indent>0</indent>
       <string></string>
-      <parameters>1 0 160 120 95305824 100 0 0 100 100 100 100 1 5 10 1 0 0 0 0 0 0</parameters>
+      <parameters>1 0 160 120 0 100 0 0 100 100 100 100 1 5 10 1 0 0 0 0 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>11120</code>
       <indent>0</indent>
       <string></string>
-      <parameters>1 0 160 120 95619940 100 0 0 100 100 100 100 2 5 10 1 0 0 0 0 0 0</parameters>
+      <parameters>1 0 160 120 0 100 0 0 100 100 100 100 2 5 10 1 0 0 0 0 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>11120</code>
@@ -13466,6 +13472,54 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@pic[1].move {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .pos 160, 120 .center</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .scale 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .trans 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .time 10 .wait</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .rgbs 100, 100, 100, 100</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@pic[1].move {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .relative</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
