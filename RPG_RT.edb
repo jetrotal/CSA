@@ -7502,7 +7502,13 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>1 1 0 0 0 0 0 1 0 0</parameters>
+      <parameters>1 456 0 0 0 0 0 1 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10710</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 229 0 0 0 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
@@ -7598,13 +7604,13 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 1 0 1 0 0</parameters>
+      <parameters>0 13 0 0 0 1 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 0 1 0 1</parameters>
+      <parameters>0 17 0 0 0 0 0 1 0 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -7669,7 +7675,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .backdropFile "Brazil"</string>
+      <string>    .backdropFile "Brazil" .shallow</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -7975,7 +7981,43 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .troop v[1]</string>
+      <string>    .troop v[456]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .disableEscape</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .enableGameover</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@btl.begin {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .troop v[v[229]]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -8137,12 +8179,6 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .enableGameover</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
       <string>    .win bl {</string>
       <parameters></parameters>
      </EventCommand>
@@ -8263,7 +8299,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .troop 1</string>
+      <string>    .troop 13</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -8305,7 +8341,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .troop 1</string>
+      <string>    .troop 17</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
