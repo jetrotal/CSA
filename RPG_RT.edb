@@ -1741,7 +1741,7 @@
     <name></name>
    </Variable>
   </variables>
-   <commonevents>
+  <commonevents>
    <CommonEvent id="0001">
     <name>Text</name>
     <trigger>5</trigger>
@@ -2308,37 +2308,49 @@
       <code>10130</code>
       <indent>0</indent>
       <string>Actor1</string>
-      <parameters></parameters>
+      <parameters>1</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string>Actor1</string>
-      <parameters>0 1</parameters>
+      <parameters>23 0 0 16</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string>Actor1</string>
-      <parameters>0 0 1</parameters>
+      <parameters>25 0 0 32</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10130</code>
+      <indent>0</indent>
+      <string>Actor1</string>
+      <parameters>2 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10130</code>
+      <indent>0</indent>
+      <string>Actor1</string>
+      <parameters>3 0 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string></string>
-      <parameters></parameters>
+      <parameters>4</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 0 0 1 1</parameters>
+      <parameters>5 0 0 1 14</parameters>
      </EventCommand>
      <EventCommand>
       <code>10130</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 0 0 2 2</parameters>
+      <parameters>6 0 0 2 25</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -2349,37 +2361,55 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face "Actor1", 0, .left</string>
+      <string>@msg.face "Actor1", 1, .left</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face "Actor1", 0, .right</string>
+      <string>@msg.face "Actor1", v[23], .left</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face "Actor1", 0, .left,  .hrev</string>
+      <string>@msg.face "Actor1", v[v[25]], .left</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face "", 0, .left</string>
+      <string>@msg.face "Actor1", 2, .right</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face t[1], 0, .left</string>
+      <string>@msg.face "Actor1", 3, .left,  .hrev</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@msg.face t[v[2]], 0, .left</string>
+      <string>@msg.face "", 4, .left</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.face t[14], 5, .left</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.face t[v[25]], 6, .left</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string></string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
@@ -35385,6 +35415,7 @@
     </event_commands>
    </CommonEvent>
   </commonevents>
+  <version>0</version>
   <version>0</version>
   <battlecommands>
    <BattleCommands>
