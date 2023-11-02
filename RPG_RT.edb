@@ -7448,7 +7448,19 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 0 1 1 0</parameters>
+      <parameters>0 1 0 0 0 0 0 1 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10710</code>
+      <indent>0</indent>
+      <string>Brazil</string>
+      <parameters>0 1 1 0 0 0 0 1 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10710</code>
+      <indent>0</indent>
+      <string>CavePlace</string>
+      <parameters>0 1 1 0 0 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
@@ -7466,37 +7478,37 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 1 1 1 0</parameters>
+      <parameters>0 1 0 0 0 0 1 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 3 1 1 0</parameters>
+      <parameters>0 1 0 0 0 0 3 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 2 1 1 0</parameters>
+      <parameters>0 1 0 0 0 0 2 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 4 1 1 0</parameters>
+      <parameters>0 1 0 0 0 0 4 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>1 1 0 0 0 0 0 1 1 0</parameters>
+      <parameters>1 1 0 0 0 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 1 0 0 0 0 1 1 0</parameters>
+      <parameters>0 1 1 0 0 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
@@ -7508,13 +7520,13 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 1 0 0 0 1 1 0</parameters>
+      <parameters>0 1 0 1 0 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 2 0 0 0 1 1 0</parameters>
+      <parameters>0 1 0 2 1 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>20710</code>
@@ -7550,7 +7562,7 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 1 0 0 1 1 0</parameters>
+      <parameters>0 1 0 0 1 0 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>20710</code>
@@ -7586,13 +7598,13 @@
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 1 0 1 1 0</parameters>
+      <parameters>0 1 0 0 0 1 0 1 0 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>10710</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 1 0 0 0 0 0 1 1 1</parameters>
+      <parameters>0 1 0 0 0 0 0 1 0 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -7616,6 +7628,174 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .troop 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .disableEscape</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .enableGameover</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@btl.begin {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .troop 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .backdropFile "Brazil"</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .disableEscape</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .enableGameover</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@btl.begin {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .troop 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .backdropFile "CavePlace" .shallow</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .disableEscape</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .enableGameover</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@btl.begin {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .troop 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .backdropFile "t[233]" .shallow</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .disableEscape</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .enableGameover</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@btl.begin {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .troop 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .backdropFile "t[v[313]]" .shallow</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -8236,7 +8416,25 @@
       <code>10720</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0 513 0 0 0 0</parameters>
+      <parameters>0 769 0 0 25 12</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10720</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 513 0 0 30 10</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10720</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 4353 0 0 5 3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10720</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 4353 0 0 8 11</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -8475,7 +8673,97 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .goods v[v[0]], 0</string>
+      <string>    .goods v[v[25]], 12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@shop {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .msg 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .goods v[30], 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@shop {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .msg 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .goods 5, v[3]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@shop {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .normal</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .msg 1</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .goods 8, v[11]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
