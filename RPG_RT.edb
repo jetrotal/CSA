@@ -18684,12 +18684,96 @@
       <code>11910</code>
       <indent>0</indent>
       <string></string>
-      <parameters></parameters>
+      <parameters>0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>2 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>4 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>5 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>3 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>7 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11910</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>0 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .saveMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .loadMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .partyMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .optionMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .debugMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .toggleScreen</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.call .f12</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -18710,13 +18794,49 @@
       <code>11930</code>
       <indent>0</indent>
       <string></string>
-      <parameters>0</parameters>
+      <parameters>-1 1</parameters>
      </EventCommand>
      <EventCommand>
       <code>11930</code>
       <indent>0</indent>
       <string></string>
-      <parameters>1</parameters>
+      <parameters>-1 4</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 8</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 16</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 32</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 128</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 189</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11930</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>-1 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -18734,6 +18854,144 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .saveMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .partyMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .toggleScreen</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .optionMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .debugMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .f12</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@sys.limitation {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .saveMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .partyMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .toggleScreen</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .optionMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .debugMenu</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .f12</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
