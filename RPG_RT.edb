@@ -18830,13 +18830,13 @@
       <code>11930</code>
       <indent>0</indent>
       <string></string>
-      <parameters>-1 189</parameters>
+      <parameters>-1 0</parameters>
      </EventCommand>
      <EventCommand>
       <code>11930</code>
       <indent>0</indent>
       <string></string>
-      <parameters>-1 0</parameters>
+      <parameters>-1 189</parameters>
      </EventCommand>
      <EventCommand>
       <code>12410</code>
@@ -18847,109 +18847,43 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@sys.limitation {</string>
+      <string>@sys.limitation .saveMenu</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .saveMenu</string>
+      <string>@sys.limitation .partyMenu</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>}</string>
+      <string>@sys.limitation .toggleScreen</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@sys.limitation {</string>
+      <string>@sys.limitation .optionMenu</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>    .partyMenu</string>
+      <string>@sys.limitation .debugMenu</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>}</string>
+      <string>@sys.limitation .f12</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@sys.limitation {</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>    .toggleScreen</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>}</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>@sys.limitation {</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>    .optionMenu</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>}</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>@sys.limitation {</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>    .debugMenu</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>}</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>@sys.limitation {</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>    .f12</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>}</string>
+      <string>@sys.limitation { }</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -18992,18 +18926,6 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .f12</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>}</string>
-      <parameters></parameters>
-     </EventCommand>
-     <EventCommand>
-      <code>22410</code>
-      <indent>0</indent>
-      <string>@sys.limitation {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
