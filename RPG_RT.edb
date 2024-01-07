@@ -18779,7 +18779,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@sys.call .saveMenu</string>
+      <string>@sys.call .pause</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
