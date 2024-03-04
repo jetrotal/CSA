@@ -2819,7 +2819,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>\t[1]</string>
+      <string></string>
       <parameters>0</parameters>
      </EventCommand>
      <EventCommand>
@@ -2843,7 +2843,7 @@
      <EventCommand>
       <code>10140</code>
       <indent>0</indent>
-      <string>\t[v[2]]</string>
+      <string></string>
       <parameters>0</parameters>
      </EventCommand>
      <EventCommand>
@@ -2851,6 +2851,450 @@
       <indent>0</indent>
       <string>\t[v[2]]</string>
       <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c2</string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c3</string>
+      <parameters>2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c4</string>
+      <parameters>3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c5</string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c6</string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>4</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c2</string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c3</string>
+      <parameters>2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c4</string>
+      <parameters>3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c5</string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c6</string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c2</string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c3</string>
+      <parameters>2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c4</string>
+      <parameters>3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c5</string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c6</string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>9</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c2</string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c3</string>
+      <parameters>2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c4</string>
+      <parameters>3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c5</string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c6</string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20141</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c1</string>
+      <parameters>0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c2</string>
+      <parameters>1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c3</string>
+      <parameters>2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c4</string>
+      <parameters>3</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c5</string>
+      <parameters>5</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string>c6</string>
+      <parameters>6</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>20140</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>4</parameters>
      </EventCommand>
      <EventCommand>
       <code>10</code>
@@ -3522,6 +3966,660 @@
       <code>22410</code>
       <indent>0</indent>
       <string>    .cancel .ignore</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c2" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c3" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c4" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c5" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c6" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel bl {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c2" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c3" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c4" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c5" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c6" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel 0</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c2" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c3" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c4" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c5" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c6" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel 6</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c2" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c3" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c4" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c5" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c6" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel 9</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@msg.choice {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c1" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c2" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c3" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c4" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c5" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .case "c6" {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    .cancel bl {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>        </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    }</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
