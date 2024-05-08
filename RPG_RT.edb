@@ -23539,61 +23539,61 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .self</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[10005]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[11]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[v[2323]]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[v[v[444]]]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .self .return</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[10005] .return</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[11] .return</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[v[2323]] .return</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@ev.erase</string>
+      <string>@ev.erase .ev[v[v[444]]] .return</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
