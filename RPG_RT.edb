@@ -1741,7 +1741,7 @@
     <name></name>
    </Variable>
   </variables>
-  <commonevents>
+    <commonevents>
    <CommonEvent id="0001">
     <name>Text</name>
     <trigger>5</trigger>
@@ -21029,6 +21029,60 @@
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
+      <code>12010</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>4 30 0 1 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22011</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>12010</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>5 40 0 0 1 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22011</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>12010</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>6 50 0 1 0 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>10</code>
+      <indent>1</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22011</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -21361,7 +21415,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .item[1] .notExists() {</string>
+      <string>@if .item[1] .exists() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21379,7 +21433,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .item[1] .exists() {</string>
+      <string>@if .item[1] .notExists() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21775,7 +21829,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .saveExists {</string>
+      <string>@if .saveExists() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21793,7 +21847,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .testPlay {</string>
+      <string>@if .testPlay() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21811,7 +21865,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .atbWaitMode {</string>
+      <string>@if .atbWaitMode() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21829,7 +21883,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@if .fullscreen {</string>
+      <string>@if .fullscreen() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -21944,6 +21998,60 @@
       <code>22410</code>
       <indent>0</indent>
       <string>} .else bl {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@if .item[v[30]] .exists() {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@if .actor[v[40]] .isMember() {</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>    </string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>}</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@if  .ev[v[50]] .facingUp() {</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
