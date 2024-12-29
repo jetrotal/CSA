@@ -33295,13 +33295,13 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@cmd 51, "", [v[101], v[102], v[103]]</string>
+      <string>@cmd 51, "", [v[101], v[102], 3, v[104]]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>@cmd 52, "", [v[v[101]], v[v[102]], v[v[103]]]</string>
+      <string>@cmd 52, "", [v[v[101]], v[v[102]], v[v[103]], 4, v[5]]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
