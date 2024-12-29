@@ -1740,8 +1740,8 @@
    <Variable id="0005">
     <name></name>
    </Variable>
-  </variables>
-    <commonevents>
+  </variables> 
+  <commonevents>
    <CommonEvent id="0001">
     <name>Text</name>
     <trigger>5</trigger>
@@ -33197,6 +33197,30 @@
       <parameters>512 19 20 21</parameters>
      </EventCommand>
      <EventCommand>
+      <code>3019</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>48 50 8 3 0 91 92 93</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3019</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>48 51 8 3 0 101 102 103 273</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3019</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>48 52 8 3 0 101 102 103 546</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3019</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>64 53 0 0 0 19923201 839057666 17302529 33771013 100730369 16908366 524551</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -33260,6 +33284,30 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@cmd 19, "stringArg", .args v[20], v[v[21]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@cmd 50, "", [91, 92, 93]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@cmd 51, "", [v[101], v[102], v[103]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@cmd 52, "", [v[v[101]], v[v[102]], v[v[103]]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@cmd 53, "", `[1, 2 + 3, 4 * v[5], actor[6].atk, rnd(7, 8)]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
