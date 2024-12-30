@@ -33221,6 +33221,12 @@
       <parameters>64 53 0 0 0 19923201 839057666 17302529 33771013 100730369 16908366 524551</parameters>
      </EventCommand>
      <EventCommand>
+      <code>3019</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>4161 54 0 0 993 19951361 21824222 29098546 36373000 33686350 100729498 33685582 2013397769 -419287037 -1845284349 855638410 28444419 -646184192 1</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -33308,6 +33314,12 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@cmd 53, "", `[1, 2 + 3, 4 * v[5], actor[6].atk, rnd(7, 8)]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@cmd v[54], t[993], `[111, 222 + 333, 444 * v[555], actor[666].atk, rnd(777, 888), 999 + 101010 * (111111 / 121212)]</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
