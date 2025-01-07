@@ -17317,6 +17317,42 @@
       <parameters>10001 31 31 31 31 10 1</parameters>
      </EventCommand>
      <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>57 31 31 31 31 10 0 1</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>67 31 31 31 31 10 0 2</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>10001 11 31 31 31 10 0 16</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>10001 31 12 31 31 10 0 256</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>10001 31 31 13 31 10 0 4096</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>11320</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>10001 31 31 31 14 10 0 65536</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -17362,6 +17398,42 @@
       <code>22410</code>
       <indent>0</indent>
       <string>@ev.flash .player .rgbv 31, 31, 31, 31 .time 10 .wait</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev[v[57]].flash .rgbv 31, 31, 31, 31 .time 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev[v[v[67]]].flash .rgbv 31, 31, 31, 31 .time 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev.flash .player .rgbv v[11], 31, 31, 31 .time 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev.flash .player .rgbv 31, v[12], 31, 31 .time 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev.flash .player .rgbv 31, 31, v[13], 31 .time 10</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>@ev.flash .player .rgbv 31, 31, 31, v[14] .time 10</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
