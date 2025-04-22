@@ -33257,6 +33257,48 @@
       <parameters>0 32 1 1 1</parameters>
      </EventCommand>
      <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>16 0 12 13 11</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>17 0 14 16 15</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>18 0 17 19 18</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>19 0 20 22 21</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>20 0 22 24 23</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>21 0 25 26 0</parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>3013</code>
+      <indent>0</indent>
+      <string></string>
+      <parameters>22 0 27 29 28</parameters>
+     </EventCommand>
+     <EventCommand>
       <code>12410</code>
       <indent>0</indent>
       <string>//TPC_snippet</string>
@@ -33265,7 +33307,7 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>v[1].copy v[1], 1</string>
+      <string>v[1].copyTo v[1], 1</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
@@ -33361,25 +33403,67 @@
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>v[v[1]].copy v[1], 1</string>
+      <string>v[v[1]].copyTo v[1], 1</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>v[1].copy v[v[1]], 1</string>
+      <string>v[1].copyTo v[v[1]], 1</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>v[1].copy v[1], v[1]</string>
+      <string>v[1].copyTo v[1], v[1]</string>
       <parameters></parameters>
      </EventCommand>
      <EventCommand>
       <code>22410</code>
       <indent>0</indent>
-      <string>v[1].copy v[1], v[v[1]]</string>
+      <string>v[1].copyTo v[1], v[v[1]]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[12].deref v[11], 13</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[14].sort 16 .sync v[15]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[17].sortDescending 19 .sync v[18]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[20].shuffle 22 .sync v[21]</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[22].repeat 23, 24</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[25].reverse 26</string>
+      <parameters></parameters>
+     </EventCommand>
+     <EventCommand>
+      <code>22410</code>
+      <indent>0</indent>
+      <string>v[27].copyFrom v[28], 29</string>
       <parameters></parameters>
      </EventCommand>
     </event_commands>
